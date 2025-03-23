@@ -1,0 +1,941 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Welcome to World 2 - VGMdb</title>
+
+
+
+
+
+<link href="https://vgmdb.net/album/9863" rel="canonical" />
+
+
+<meta name="keywords" content="album, ost, soundtrack, tracklist, scans, covers, vgm, translation" />
+<meta name="description" content="Doujin/Indie (CD + Digital) published by Game Music 4 All on Aug 04, 2008 containing arrangement, remix, original work" />
+<meta property="og:title" content="Welcome to World 2 - VGMdb" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://medium-media.vgm.io/albums/36/9863/9863-1218042311.jpg" />
+<meta property="og:url" content="https://vgmdb.net/album/9863" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@vgmdb" />
+<meta name="twitter:title" content="Welcome to World 2 - VGMdb" />
+<meta name="twitter:description" content="Doujin/Indie (CD + Digital) published by Game Music 4 All on Aug 04, 2008 containing arrangement, remix, original work" />
+<meta name="twitter:image" content="https://medium-media.vgm.io/albums/36/9863/9863-1218042311.jpg" />
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="VGMdb" />
+
+
+<!-- CSS Stylesheet -->
+<style type="text/css" id="vbulletin_css">
+/**
+* vBulletin 3.8.11 CSS
+* Style: 'Default Style'; Style ID: 1
+*/
+@import url("/forums/clientscript/vbulletin_css/style-5593b98d-00001.css");
+</style>
+<link rel="stylesheet" type="text/css" href="/forums/clientscript/vbulletin_important.css?v=3811" />
+
+
+<link rel="stylesheet" type="text/css" href="/db/vgmdb.css?20220131" />
+<link rel="stylesheet" type="text/css" href="/db/css/vgmdb-colorcode-title.css?20190227" id="colorcode" />
+<link rel="stylesheet" type="text/css" href="/db/jquery.autocomplete.css?20091023" />
+<link rel="stylesheet" type="text/css" href="/db/jquery.jcarousel.css?20091124" />
+<link rel="stylesheet" type="text/css" href="/db/highslide.css?080623" />
+<!-- / CSS Stylesheet -->
+
+<script type="text/javascript" src="/db/clientscript/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="/db/clientscript/connection-min.js"></script>
+<script type="text/javascript">
+<!--
+var SESSIONURL = "";
+var SECURITYTOKEN = "guest";
+var IMGDIR_MISC = "/db/images/misc";
+var vb_disable_ajax = parseInt("1", 10);
+// -->
+</script>
+<script type="text/javascript" src="/forums/clientscript/vbulletin_global.js?v=3811"></script>
+<script type="text/javascript" src="/forums/clientscript/vbulletin_menu.js?v=3811"></script>
+<link rel="alternate" type="application/rss+xml" title="VGMdb Forums RSS Feed" href="/forums/external.php?type=RSS2" />
+
+<script type="text/javascript" src="/db/clientscript/jquery-1.4.min.js"></script>
+<script type="text/javascript" src="/db/clientscript/jquery.compressed.js"></script>
+<script type="text/javascript" src="/db/clientscript/jquery.tristate.js?20100420"></script>
+<script type="text/javascript" src="/db/clientscript/highslide.packed.js?080620"></script>
+<script type="text/javascript" src="/db/clientscript/vgmdb_global.js?220525"></script>
+<link rel="search" type="application/opensearchdescription+xml" title="Search VGMdb" href="/db/search.xml" />
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+<script language="javascript" type="text/javascript">
+$(document).ready(function() {
+	var ItemType = new Array;
+	ItemType["0"] = "Album";
+	ItemType["1"] = "Artist";
+	ItemType["2"] = "Organization";
+	hs.showCredits = false;
+	hs.allowMultipleInstances = false;
+	hs.graphicsDir = '/db/highslide/graphics/';
+	function formatItem(row) {
+		return "<span style='float: right; margin-left: 10px' class='tinyfont label'>" + ItemType[row[3]] + " #" + row[1] + "</span>" + row[0];
+	}
+	$('#navoptions a').click(function() {
+		if (!$('#pref_content form').length) {
+			$.ajax({
+				url: '/db/user.php?do=preferences',
+				beforeSend: function() {
+					$('#navoptions').css('visibility', 'hidden').parent('li').css('background', 'transparent url(/db/img/ajax_loader_small.gif) center center no-repeat');
+				},
+				success: function(data) { 
+					$('#navoptions').css('visibility', 'visible').parent('li').css('background', 'transparent url(/db/img/vgmdbsubnav2010.gif) -593px 0 no-repeat');
+					$('#pref_content').html(data.html);
+					$('#pref_content form label.tristate').tristate();
+					$('#pref_content form').ajaxForm({
+						beforeSubmit: function() {
+							$('#pref_content form input[type=submit]').css('visibility', 'hidden').parent('div').css('background', 'transparent url(/db/img/ajax_loader_small.gif) center center no-repeat');
+						},
+						success: function() {
+							$('#pref').slideUp('fast');
+							$('#pref_content form input[type=submit]').css('visibility', 'visible').parent('div').css('background', 'none');
+							$('#navoptions a').blur();
+						}
+					});
+					$('#pref').slideDown('fast');
+				},
+				dataType: 'json'
+			});
+		}
+		else {
+			if ($('#pref').is(':visible')) {
+				$('#pref').slideUp('fast');
+				$('#navoptions a').blur();
+			}
+			else $('#pref').slideDown('fast');
+		}
+		return false;
+	});
+	$("#simplesearch").autocomplete('/db/ajax-autocomplete.php', {
+		minChars: 3,
+		delay: 1000,
+		max: 150,
+		width: 500,
+		scrollHeight: 600,
+		selectFirst: false,
+		formatItem: formatItem
+	}).result(function(event, item) {
+		location.href = item[2];
+	});
+	$('label.tristate').tristate(); // 'sup IRA
+	
+});</script>
+<meta name="google-site-verification" content="3hoyGArPHzn4HMMeNfYCjhqM5Ci_675U7M7NxbiLJ1A" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4758350-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+  })();
+
+</script>
+<style>
+.alt1_dark {
+    background: #151F30;
+    color: #FFFFFF;
+}
+
+.alt2_dark {
+    background: #252B3F;
+    color: #FFFFFF;
+}
+span.link_doc { display: block; background: transparent url('/db/icons/album-cover.gif') 0 2px no-repeat; padding-left: 14px; margin-bottom: 4px; }
+</style>
+<!---->
+
+
+<style>tr.extracred { display: none; }</style>
+
+<script language="javascript" type="text/javascript">
+$(document).ready(function() {
+	$("input.button").click(function() { window.clickedButton = $(this); });
+	$("form").submit(function (e) { if (window.clickedButton != null && !window.clickedButton.hasClass("warnbutton")) { $("input.button:not(.warnbutton)").click(function() { return false; }); } });
+	$(".auto-collapse").each(function() {
+		if ($(this).height() >= 42) {
+			$(this).css('cursor', 'pointer').css('overflow', 'hidden');
+			if (!$(this).hasClass("auto-collapse-yellow")) {
+				$(this).children(":first").css('mask-image', 'linear-gradient(to bottom, black 20px, transparent 50px)');
+				$(this).children(":first").css('-webkit-mask-image', 'linear-gradient(to bottom, black 20px, transparent 50px)');
+			}
+			$(this).click(function(e) {
+				$(this).css('max-height', 'none').css('cursor', 'auto');
+				if (!$(this).hasClass("auto-collapse-yellow")) {
+					$(this).children(":first").css('mask-image', '').css('-webkit-mask-image', '');
+				}
+			});
+		}
+	});
+	$('textarea.resizable:not(.processed), select.resizable:not(.processed), div.resizable:not(.processed)').TextAreaResizer();
+	
+	
+	$('#tlnav li a').click(function() {
+		$('#tlnav li').removeClass('active');
+		$(this).parent('li').addClass('active');
+		$('span.tl').hide();
+		$('#' + $(this).attr('rel')).show();
+		return false;
+	});
+	
+	
+	
+	$('table.role tr.rolebit').mouseover(function() { $(this).addClass("over"); });
+	$('table.role tr.rolebit').mouseout(function() { $(this).removeClass("over"); });
+	
+	
+	
+	
+	$(document).ready(function() {
+		$('.collapsible_section').click(function() {
+			var src = $(this).find('img').attr('src');
+			if (src.indexOf('close') > 0) {
+				$(this).find('img').attr('src', src.replace('close', 'open'));
+				$('#' + $(this).attr('rel')).hide('fast');
+			} else {
+				$(this).find('img').attr('src', src.replace('open', 'close'));
+				$('#' + $(this).attr('rel')).show('fast');
+			}
+			return false;
+		});
+	});
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	// shamelessly ripped from Digg
+	var cheatCode = '';
+	var maxCode = 40;
+	$(document).keydown(function(key) {
+		if (cheatCode.length < maxCode) {
+			var k = (key.keyCode == 0) ? key.charCode : key.keyCode;
+			cheatCode = cheatCode + String(k) + ' ';
+			switch (cheatCode) {
+				case '38 40 37 39 65 13 ':
+				window.location='/album/2072';
+				break;
+				case '38 38 40 40 37 39 37 39 66 65 13 ':
+				window.location='/album/3778';
+				break;
+				case '73 68 68 81 68 ':
+				window.location='/album/2950';
+				break;
+			}
+		}
+	});
+});
+</script>
+</head>
+<body style="padding: 0; margin: 0">
+<a name="top"></a>
+<div class="page" style="background-color: #1B273D; height: 100px; width: 100%;">
+<div style="float: right; margin-top: 10px; margin-right: 10px;">
+	<ul class="pipelist tinyfont">
+	
+	<li class="smallfont first-child"><span id="navlogin"><a href="#">Login</a><script type="text/javascript"> vBmenu.register('navlogin'); </script></span></li>
+	<li class="smallfont"><a title="Register a new account" href="/forums/register.php">Register</a></li>
+	
+	</ul>
+</div>
+<div style="white-space: nowrap;">
+<!-- logo -->
+<div style="height: 100px; float: left;"><a href="/"><img src="/db/img/vgmdblogo.png" alt="VGMdb" style="padding: 10px; width: 250px; height: 80px; border: 0" /></a></div>
+<!-- /logo -->
+<!-- top nav -->
+<div style="height: 100px; float: left; position: relative; margin-left: 1px;">
+<ul id="topnav">
+	<li id="nav_album"><a title="Official Albums, Enclosures, Doujins" href="/db/albums.php">Albums</a><a class="buttonSubmit" href="/album/new" title="Submit a new album"><img src="/db/img/button-add-big.png" alt="" /></a></li>
+	<li id="nav_artist"><a title="Composers, Arrangers, Lyricists, Performers" href="/db/artists.php">Artists</a><a class="buttonSubmit" href="/db/artists-submit.php" title="Submit a new artist"><img src="/db/img/button-add-big.png" alt="" /></a></li>
+	<!-- <li id="nav_track"><a title="Instrumentals, Vocals, Sound Effects, Voice Dramas" href="#">Tracks</a></li> -->
+	<li id="nav_label"><a title="Music Labels, Publishers, Organizations and Groups" href="/db/org.php">Organizations</a><a class="buttonSubmit" href="/db/org-submit.php" title="Submit a new publisher"><img src="/db/img/button-add-big.png" alt="" /></a></li>
+	<li id="nav_product"><a title="Games, Video, Radio/Drama Programs, Print Publications" href="/db/product.php">Products</a><a class="buttonSubmit" href="/db/product-submit.php" title="Submit a new product"><img src="/db/img/button-add-big.png" alt="" /></a></li>
+	<li id="nav_event"><a title="Conventions, Gatherings and Shows" href="/db/events.php">Events</a><a class="buttonSubmit" href="/db/event-submit.php" title="Submit a new event"><img src="/db/img/button-add-big.png" alt="" /></a></li>
+	
+	<!--li id="nav_podcast"><a title="VGM Decibel, our bi-monthly podcast" href="/cast">Podcast</a></li-->
+</ul>
+</div>
+<!-- / top nav -->
+</div>
+</div>
+<div class="label" style="clear: both; width: 100%; background-color: #2F364F; font-family: Arial">
+<ul id="subnav">
+	<li id="nav_search" style="width: 250px">
+		<form name="navsearch" action="/search" method="get">
+			<div>
+                 <input type="text" class="bginput smallfont ac_input ac_default" name="q" id="simplesearch" maxlength="150" style="width: 160px;" enterkeyhint="go" />
+                 <select name="type" style="width: 70px;" >
+                    <option value="" >all</option>
+                    <option value="album" >albums</option>
+                    <option value="artist" >artists</option>
+                    <option value="org" >organizations</option>
+                    <option value="product" >products</option>
+                </select>
+            </div>
+		</form>
+	</li>
+	<li id="nav_advsearch"><a title="More search options" href="/search">Advanced Search</a></li>
+	<li id="nav_update"><a title="Latest submissions and edits" href="/db/recent.php">Updates</a></li>
+	<li id="nav_calendar"><a title="Release schedules" href="/db/calendar.php?year=2023&month=9">Calendar</a></li>
+	<li id="nav_forum"><a title="Community discussions" href="/forums/">Forums</a></li>
+	<li id="nav_market"><a title="Trade with other members" href="/db/marketplace.php?do=view">Marketplace</a></li>
+	<!--li id="nav_users"><a title="User collections" href="/db/collection.php">Users</a></li-->
+	<li id="nav_chat"><a title="Real-time chat" rel="nofollow" href="https://discord.gg/VXgKQUa" target="vgmdbchat">Discord</a></li>
+	
+	<li id="nav_submit"><a title="Submit an album" href="/album/new">Submit Album</a></li>
+	<li id="nav_customize"><span id="navoptions"><a title="Edit your preferences" href="#">Customize</a></span></li>
+</ul>
+</div>
+
+
+	<!-- login form -->
+	<div class="vbmenu_popup" id="navlogin_menu" style="display:none;">
+	<table cellpadding="4" cellspacing="1" border="0"><tr><td style="background: #BBC7CE;">
+	<form action="/forums/login.php?do=login" method="post" onsubmit="md5hash(vb_login_password, vb_login_md5password, vb_login_md5password_utf, 0)">
+	<script type="text/javascript" src="/forums/clientscript/vbulletin_md5.js?v=3811"></script>
+	<table cellpadding="0" cellspacing="3" border="0">
+	<tr>
+		<td class="smallfont"><label for="navbar_username">User Name</label></td>
+		<td><input type="text" class="bginput" style="font-size: 11px" name="vb_login_username" id="navbar_username" size="10" accesskey="u" tabindex="101" value="User Name" onfocus="if (this.value == 'User Name') this.value = '';" /></td>
+		<td class="smallfont" colspan="2" nowrap="nowrap"><label for="cb_cookieuser_navbar"><input type="checkbox" name="cookieuser" value="1" tabindex="103" id="cb_cookieuser_navbar" accesskey="c" />Remember</label></td>
+	</tr><tr>
+		<td class="smallfont"><label for="navbar_password">Password</label></td>
+		<td><input type="password" class="bginput" style="font-size: 11px" name="vb_login_password" id="navbar_password" size="10" tabindex="102" /></td>
+		<td><input type="submit" class="button" value="Log in" tabindex="104" title="Enter your username and password in the boxes provided to login, or click the 'register' button to create a profile for yourself." accesskey="s" /></td>
+	</tr>
+	</table>
+	<input type="hidden" name="s" value="" />
+	<input type="hidden" name="securitytoken" value="guest" />
+	<input type="hidden" name="do" value="login" />		
+	<input type="hidden" name="vb_login_md5password" />
+	<input type="hidden" name="vb_login_md5password_utf" />
+	</form>
+	</td></tr></table>
+	</div>
+	<!-- / login form -->
+
+
+<!-- content table -->
+<div class="page" style="padding:20px 20px 0 20px">
+
+<div id="pref" style="width: 100%; background-color:#1B273D; margin-bottom: 20px; display: none">
+	<b class="rtop"><b></b></b>
+	<div id="pref_content"></div>
+	<b class="rbot"><b></b></b>
+</div>
+
+
+
+<!-- main page contents -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" align="left"><tr><td width="100%" style="background-color: #1B273D;" valign="top">
+	<b class="rtop"><b></b></b>
+
+
+	<div id="innermain" style="padding: 6px 10px 0px 10px">
+		<span style="float:right;" class="label smallfont"><a href="/db/albums-discuss.php?id=9863">Discuss</a> | <span id="albumtools"><a href="#">Edit</a><script type="text/javascript"> vBmenu.register('albumtools'); </script></span></span>
+
+		<h1><span class="albumtitle" lang="en" style="display:inline">Welcome to World 2</span><span class="albumtitle" lang="ja" style="display:none"><em> / </em>Welcome to World 2</span><span class="albumtitle" lang="ja-Latn" style="display:none"><em> / </em>Welcome to World 2</span> </h1>
+
+		<div style="padding-left: 10px; padding-right: 10px; padding-bottom: 6px; font-size: 9pt; color: #788990;"><span class="albumtitle" lang="en" style="display:inline"></span><span class="albumtitle" lang="ja" style="display:none">Welcome to World 2<br /></span><span class="albumtitle" lang="ja-Latn" style="display:none">Welcome to World 2<br /></span></div>
+		<div style="padding-left: 10px; padding-right: 10px; margin-top: 10px;"><div id="leftfloat" style="float: left; width: 250px; height: 250px; padding-top: 4px; padding-bottom: 4px;">
+<div style="width: 250px; height: 250px; overflow: hidden">
+<table cellpadding="0" cellspacing="0" border="0" align="left" width="250">
+<tr><td align="center" valign="middle" style="height: 250px; width:250px">
+<div id="coverart" style="background-image: url('https://medium-media.vgm.io/albums/36/9863/9863-1218042311.jpg')" title="N/A"></div>
+</td></tr></table></div></div>
+
+<div id="rightfloat" style="margin-left: 270px;">
+<div style="background-color: #2F364F;">
+<b class="rtop"><b></b></b>
+
+<div style="max-height:300px; overflow:auto;">
+<table id="album_infobit_large" cellpadding="1" cellspacing="1">
+<tr><td nowrap="nowrap"><span class="label"><b>Catalog Number</b></span></td>
+<td width="100%">N/A 
+
+
+</td></tr>
+
+
+
+<tr><td nowrap="nowrap"><span class="label"><b>Release Date</b></span></td>
+<td><a title="View albums released on Aug 04, 2008" href="/db/calendar.php?year=2008&month=8#20080804">Aug 04, 2008</a> </td></tr>
+
+<tr><td nowrap="nowrap"><span class="label"><b>Publish Format</b></span></td>
+<td>Doujin/Indie  </td></tr>
+
+<tr><td nowrap="nowrap"><span class="label"><b>Release Price</b></span></td>
+<td>7.00 <acronym title='USD (U.S.)'>USD</acronym> </td></tr>
+
+<tr><td nowrap="nowrap"><span class="label"><b>Media Format</b></span></td>
+<td>CD + Digital</td></tr>
+
+<tr><td nowrap="nowrap"><span class="label"><b>Classification</b></span></td>
+<td>Arrangement, Remix, Original Work </td></tr>
+
+
+    <tr class="maincred"><td nowrap="nowrap"><span class="label"><b>Publisher</b></span></td><td><a href="/org/103"><span class="productname" lang="en" style="display:inline">Game Music 4 All</span><span style="display:none"><em> / </em></span><span class="productname" lang="ja" style="display:none">Game Music 4 All</span><span style="display:none"><em> / </em></span><span class="productname" lang="ja-Latn" style="display:none">Game Music 4 All</span></a></td></tr>
+
+
+
+
+
+</table>
+</div>
+
+<div style="clear: left; line-height: 0; height: 0; overflow: hidden; visibility: hidden"></div>
+<b class="rbot"><b></b></b>
+</div></div>
+
+
+
+
+
+
+
+</div>
+		<br style="clear: both" />
+
+
+
+<div style="padding-left: 10px; padding-right: 10px"><h3><span style="float:left">Credits <a href="#" class="collapsible_section" rel="collapse_credits"><img src="/db/img/collapse_close.png" /></a></span></h3><span style="clear:both;display:block;"></span>
+<div style="background-color: #2F364F;" id="collapse_credits">
+<b class="rtop"><b></b></b>
+<div style="max-height:1000px; padding: 6px 10px 10px 6px; overflow:auto;">
+<table id="album_infobit_large" style="height:auto" cellpadding="1" cellspacing="1">
+<tbody>
+<tr class="maincred"><td nowrap="nowrap"><span class="label"><b><span title="Arranger" class="artistname" lang="en" style="display:inline">Arranger</span><span style="display:none"><em> / </em></span><span title="Arranger" class="artistname" lang="ja" style="display:none">Arranger</span></b></span></td><td width="100%"><a href="/artist/4862">Select Start</a>, <a href="/artist/1160">Entertainment System</a>, Player Two, <a href="/artist/10804">Matheus Manente</a>, <a href="/artist/3845">Danimal Cannon</a>, <a href="/artist/2689">8 Bit Instrumental</a>, Lucas Park, <a href="/artist/11835">Random Encounter</a>, Spheres of Chaos, <a href="/artist/2881">The Megas</a>, 8-bit Philharmonic, The Adventures of Duane and BrandO, Elijah B. Torn, <a href="/artist/3706">This Arm Is Gun</a>, <a href="/artist/2751">Temp Sound Solutions</a>, <a href="/artist/4903">Videogame Orchestra</a>, <a href="/artist/44449">Dual Core</a>, <a href="/artist/9459">Girlz Melon</a>, <a href="/artist/8143">Nicole Adams</a>, <a href="/artist/3572">starla</a>, Elfonso, <a href="/artist/14437">Jay Tholen</a>, <a href="/artist/5659">Doctor Octoroc</a></td></tr><tr class="maincred"><td nowrap="nowrap"><span class="label"><b><span title="Performer" class="artistname" lang="en" style="display:inline">Performer</span><span style="display:none"><em> / </em></span><span title="Performer" class="artistname" lang="ja" style="display:none">Performer</span></b></span></td><td width="100%"><a href="/artist/4862">Select Start</a>, <a href="/artist/1160">Entertainment System</a>, Player Two, <a href="/artist/10804">Matheus Manente</a>, <a href="/artist/3845">Danimal Cannon</a>, <a href="/artist/2689">8 Bit Instrumental</a>, Lucas Park, <a href="/artist/11835">Random Encounter</a>, Spheres of Chaos, <a href="/artist/2881">The Megas</a>, 8-bit Philharmonic, The Adventures of Duane and BrandO, Elijah B. Torn, <a href="/artist/3706">This Arm Is Gun</a>, <a href="/artist/2751">Temp Sound Solutions</a>, <a href="/artist/4903">Videogame Orchestra</a>, <a href="/artist/44449">Dual Core</a>, <a href="/artist/9459">Girlz Melon</a>, <a href="/artist/8143">Nicole Adams</a>, <a href="/artist/3572">starla</a>, Elfonso, <a href="/artist/14437">Jay Tholen</a>, <a href="/artist/5659">Doctor Octoroc</a></td></tr>
+</tbody>
+</table>
+</div>
+<b class="rbot"><b></b></b>
+</div></div><br/>
+
+		<div style="padding-left: 10px; padding-right: 10px">
+		
+			<div><h3 style="float: left">Tracklist <a href="#" class="collapsible_section" rel="tracklist"><img src="/db/img/collapse_close.png" /></a></h3>
+			<ul id="tlnav" class="tabnav" style="margin-left: 10px"><li class="active"><a class='smallfont' rel='tl14016' href='#'>English</a></li></ul>
+			</div>
+
+			<div style="background-color: #2F364F; clear: both">
+			<b class="rtop"><b></b></b>
+			<div style="padding: 6px 10px 10px 10px" id="tracklist"><span class="tl" id="tl14016">
+	<!-- / tracklist tools menu -->
+<span style="font-size:8pt"><b>Disc 1 (CD)</b></span>
+<br /><br />
+<table cellpadding="1" cellspacing="0" border="0" class="role">
+<tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">01</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Select Start - Final Fantasy 6 Intro</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:43</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">02</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Select Start - Terra's Theme</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:20</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">03</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Entertainment System - Fire Emblem</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:47</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">04</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Player Two - likeyoulikeme</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:03</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">05</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Matheus Manente - Bahamut Lagoon Suite</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">7:11</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">06</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Danimal Cannon - Apparently This Game Has Music</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:55</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">07</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+8 Bit Instrumental - Solytari Flight</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:29</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">08</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Lucas Park - Like Brambles in a Firestorm</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:14</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">09</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Random Encounter - Warcraft 2 Human 1</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:10</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">10</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Spheres of Chaos - Korobeiniki</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:16</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">11</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+The Megas - The Message From Dr. Light</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:09</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">12</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+8-bit Philharmonic - Symphony No.1, Op.13 - &quot;Of the Night&quot;</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">6:30</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">13</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+The Adventures of Duane and BrandO - DOUBLE DRAGON</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:40</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">14</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Elijah B. Torn - FuckinVampireZombiePochi</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:01</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">15</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+This Arm Is Gun - Bring Forth My Enemies</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:19</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">16</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Temp Sound Solutions - Heart Pitches</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:16</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">17</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Videogame Orchestra - Shinobi III - Japonesque ft. Girlz Melon</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:50</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">18</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Dual Core - End of the Beginning</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:19</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">19</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Girlz Melon - Reincarnated Soul</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:13</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">20</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Nicole Adams feat. starla - Permutation</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:50</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">21</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Elfonso - Great Sword</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:58</span>
+
+</td>
+</tr>
+</table>
+<span style="float: right; margin: 1px;">
+  <span class="smallfont" style="color: #606978">Disc length</span>
+  <span class="time">79:13</span>
+</span>
+<br style="clear: both" />
+
+<span style="font-size:8pt"><b>Disc 2 (Digital)</b></span>
+<br /><br />
+<table cellpadding="1" cellspacing="0" border="0" class="role">
+<tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">01</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Girlz Melon - Aeris Theme</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:21</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">02</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Dual Core - Hostage Down</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:53</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">03</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+The Adventures of Duane and BrandO - DUCK HUNT</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:25</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">04</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Jay Tholen - Wisdom Sequence</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:00</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">05</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Videogame Orchestra VS Dual Core - Dark Hero</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:38</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">06</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+8-bit Philharmonic - The Belmont Legend</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:49</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">07</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Doctor Octoroc - The War on 32-Bit Terror</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">8:03</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">08</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Player Two - Stayin' Alive</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:20</span>
+
+</td>
+</tr>
+</table>
+<span style="float: right; margin: 1px;">
+  <span class="smallfont" style="color: #606978">Disc length</span>
+  <span class="time">32:29</span>
+</span>
+<br style="clear: both" />
+<h4 style="font-weight: normal; clear:both"><span class="label">
+
+&nbsp;</span>
+
+<span style="float: right; margin: 1px;">
+<span class="smallfont" style="color: #606978">Total tracks</span>
+<span class="time" style="font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, Meiryo, sans-serif;">
+29
+</span>
+&nbsp;
+<span class="smallfont" style="color: #606978">Total length</span>
+<span class="time" style="font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, Meiryo, sans-serif;">
+1:51:42
+</span>
+
+</span>
+
+</h4></span>
+</div>
+			<b class="rbot"><b></b></b>
+			</div>
+
+		</div>
+
+<div style="padding: 20px 10px 10px 10px">
+<h3>Notes  <a href="#" class="collapsible_section" rel="collapse_notes"><img src="/db/img/collapse_close.png" /></a></h3>
+<div style="background-color: #2F364F;" id="collapse_notes">
+<b class="rtop"><b></b></b>
+<div style="padding: 6px 10px 10px 10px" class="smallfont" id="notes">Disc 1: CD<br />Disc 2 (Bonus): Digital Release<br /><br />Thank you to all the bands on this album! Thanks to Jay Tholen for the amazing artwork! Also thanks to Z., Hex, MisterB, and Leo Camacho for the support! Finally thanks to Videogame Orchestra for mastering this album!<br /><br />A few bands had a chance to write some notes detailing the making of the songs they contributed to this compilation, among other things. Please read it over, and learn more about some of the amazing songs on the album!<br /><br />Fire Emblem performed by Entertainment System<br />First off thanks for listening to our super secret surf version of &quot;together we ride&quot; or &quot;together we surf&quot; from Fire Emblem. When we were asked to contribute a track to GM4A's second year anniversary comp we knew this was the one. This song is actually a track off our freshmen release &quot;the Computer always cheats&quot; but over the years some of our songs have changed a bit. In the case of this song we happened to be noodling about during set up at our weekly Sunday practice, and while we can't say who started playing the song with a surf kinda rhythm, everyone just kinda jumped in. after playing with it for a while we decided doing the first half of the song surf style sounded pretty cool. We started playing the surf version at shows and over time it grew to be one of our favorites. The new version you have here is actually the last recorded track we have with our former drummer of 3 years Matt the Dong, when he decided to step away from ES we wanted to give him a bit of a send off, and since he had been playing this song with us for the better part of 2 years we felt it was a good way to say goodbye. Not only that, but this version also got slammed with a bunch of new harmony sections, compliments of our own Rex Anderson. Also, this version was recorded with our pals at nice package studios, so the over all quality and kick ass-ed-ness it boosted like ten fold so...enjoy! We would also like to thank the GM4A guys for all their hard work and dedication to helping and loving all that the VG music movement has to offer. you guys have been super cool and man you put together a lot of comps, keep up the good work! -Entertainment System<br /><br />Bahamut Lagoon Suite performed by Matheus Manente<br />&quot;Bahamut Lagoon has an amazing soundtrack that surprises me since I have first heard about it. Noriko Matsueda did a great job with this music, and I'm very happy I had the chance of making an arrangement of this soundtrack.<br />When Anthony (from GM4All) called me to be part of it, it was hard work, I don't have a nice equipment, but the result is just as good as working on it has been.<br />This song includes four songs of the original soundtrack, &quot;Fight 1&quot;, &quot;Yoyo and the God Dragons&quot;, &quot;The Last Battle&quot; and &quot;Main Theme of Bahamut Lagoon&quot;, managed to fit together in an epic way. It included composing for a whole orchestra playing together with the acoustic and eletric guitars, drums and bass. I try to put the music in front line, don't care so much about technical demonstrations, but I couldn't resist a small shred session. Also, I tried to show power within all the instruments, from the orchestra to the bass, not getting restricted to just one lead instrument.<br />Completed, it had some parts with more than 30 instruments playing together and ended up with over 7 minutes of music.<br />I'm happy I've made it. Now I can't wait to see how it fits with the rest of the compilation. Game music 4 all is growing everyday, the compilations are getting better everytime.<br />I hope that those who dare to listen it also like it as well as I did. I know it will be a nice track for a great compilation.&quot; -Matheus Manente<br /><br />Solytari Flight performed by 8 Bit Instrumental<br />All right Super R-Type it's a great shooting game, and there's a lot of people that don't remember it so well, so we decided to make an effort and try to make an version from the first stage of this game, because it's the most remembered one.<br />Anyways we don't have much to say about the track, just that it took time to have it done, and we hope that everyone enjoys it.<br /><br />It is a pleasure for us to have been invited to the compilation, and gamemusic4all, it's great on helping the bands and artists promoting their music, and we hope be a part of the next compilation releases. -8 Bit Instrumental<br /><br />Like Brambles in a Firestorm performed by Lucas Park<br />Now you may be wondering, why did I do what I did with my track, &quot;Like Brambles in a Firestorm?&quot; Well I would go into a 2458697435 year discussion about how everything aligned at that very moment and thus made this supernatural burst of awesomeness that is this song, but really, I'll shorten that to one sentence. Because it was a fucking great idea! Whoops, sentence fragment! Poor grammar and not so witty jokes aside, I absolutely love the brambles theme from DKC2 otherwise known as the Stickerbush Symphony. I also noticed that the Lava Reef Zone music from Sonic and Knuckles had the exact same key signature! Amazing how being a music major can help when listening to and remixing songs, ja?<br /><br />I loved the idea from start to finish and it was all a matter of putting it together, which took about a few days to really get the flow and idea of it all.<br /><br />I admit, the track might sound spacey at first but trust me, there's enough air and fire and brimstone to go around for everyone's tastes! Guaranteed if you liked either of these songs, you will at least like part of this song, if not all of it! I would have liked to use samples of the SPC data and such for the song but I ran out of time really. I was frankly working on several other projects when Anthony of Game Music 4 All (May the great goddess Ishtar bless them.) asked me to contribute for the album, and just putting something from my back catalogue just wouldn't do it... I'd feel guilty really if I didn't make something special and exclusive to the album. With that being said, I hope you really enjoy my track, &quot;Like Brambles in a Firestorm,&quot; and I would like to thank Anthony and www. gamemusic4all. com for letting me be a part of this effort! Here's to another 50 million years of GM4A! Cheers and Booze, Lucas Park<br /><br />Warcraft 2 Human 1 performed by Random Encounter<br />This song started out with a love for Warcraft 2. We'd been playing around with it for about a year, trying different arrangements, different instrumentations. We tried everything from a bass guitar to trumpet as the lead instrument until we finally settled on the James Bond-esque guitar and muted accordion that made the final cut.<br /><br />At the time of the recording we only had three musicians in the band so we had to record Warcraft 2: Human 1 in layers. First we recorded the drums and bass guitar in a single perfect take at the University of South Florda, and later added the rythm guitar, bells, accordions (Yes, there are two separate accordions used), keyboard, piano, vocals, and lead guitar in. The funny thing about the lead guitar is that we were kind of rushed to get the part recorded and I (Travis the bass/accordion player) was the only one who knew the main melody. I'd never played a (non-bass) guitar before and it was quite the experience having to work with both a time constraint and really thin guitar strings for a quality recording. 72 takes later, here it is.<br /><br />Finally, the vocals from the WC2 'Disco' cheat were added as a joke, but somehow wound up staying in the finished product.<br /><br />Game music for All is pretty cool. Eh, updates the website and isn't afraid of anything.<br />-Random Encounter<br /><br />Korobeiniki performed by Spheres of Chaos<br />Most people should know Korobeiniki from Tetris - I guess it's become something of a video game cover staple. The tune itself was originally a 19th century Russian folk song.<br /><br />Game Music 4 All is great! The site has helped Spheres of Chaos (and the Gamewave Podcast) out big time, and has really created a sense of community within the VGM scene. And of course, I write for the site too, so here's to many more years! -Joe.<br /><br />Symphony No.1, Op.13 - &quot;Of the Night&quot; performed by 8-bit Philharmonic<br />The song I created for this album is &quot;Symphony No.1,Op.13 - &quot;Of the Night&quot;, an orchestral medley based on the work of Michiru Yamane in one of the most legendary Castlevania games of all time. While most top-notch VG soundtracks have been remade to death, I've hardly heard anything attempted from Symphony of the Night. The music is dark, catchy, powerful, and begged to be converted to symphony. (There is a Castlevania 4 song quoted in there too!) Its place on this compilation is justified by the musical influence of the source material, and its ability to hook in even the least game-oriented listeners. The track title is a mock-classical label, the Opus numbered 13 because SOTN was the 13th game in the series.<br /><br />This song and the rest of this compilation would never have existed had it not been for GameMusic4All and Anthony hounding me to get my song done! Their website and community has opened my eyes to the scope of the VG music scene, and the collaboration of the artists within has produced some amazing work. This album is a testament to that, and to the quality of VG music as a whole. I hope to be a part of more projects in the future. But enough talk, have at you! -Nick, 8-bit Philharmonic<br /><br />DOUBLE DRAGON performed by The Adventures of Duane and BrandO<br />&quot;We were inspired to do Double Dragon because it just made sense. The two of us fight like brothers constantly! And with LEO from Push Start as the infamous ABOBO, the song really couldn't have turned out better, in my opinion. It could have been LONGER, however.&quot; -BrandO<br /><br />&quot;Game Music 4 All is a wonderful opportunity for video game inspired musicians and artists to form am alliance! It allows us to reach each other on the most familiar of levels (and stages, zones, worlds, etc...) and I think the people at GM4A are truly brilliant for putting this all together! HERE'S TO THE YEARS TO COME! GAME ON!&quot; -BrandO, also!<br /><br />&quot;I'd wanted too do Double Dragon for a while now, it gave BrandO and I the opportunity to team up and battle at the same time; which we do... constantly. I don't think we've ever made it through a song without a little complaining, or pecking at eachother, In Duck hunt for example the beginning where we're arguing with eachother wasn't scripted. I also wanted to personally thank Leo for comtributing, and I look forward to working with him on other songs in the future.&quot; -Duane<br /><br />&quot;GM4A has really helped our band with promotion, without there help we would probably still be stuck at the beginning. They've also been very responsive to our band aswell. It's awesome to see people who are real fans of what we do giving us a leg up on the compition (Not that I feel like we're competing,but you get the point). Thank you all for everything.&quot; -Also Duane<br /><br />Bring Forth My Enemies performed by This Arm Is Gun<br />This Arm Is Gun started out very odd... in William's basement with a twelve pack of limited Edish Mountain Dew Game Fuel and a copy of the MegaMan Anniversary collection. Zac, Ryan and William decided it would be &quot;totally sweet&quot; to start a band dedicated to the epic awesomeness that is the Blue Bomber, and soon afterward This Arm Is Gun was born.<br /><br />They recruited Austin, a fellow band mate from Ryan's past group Immaculate, to do keyboards, and the band took off. We quickly started writing, recording, and freaking out about our new project. Very soon we had pumped out a few songs we were proud of and posted them on MySpace.<br /><br />... and Holy Shit. MySpace went nuts.<br /><br />We all of a sudden started getting a lot of attention, especially from the guys over at GM4A, getting air time on internet radio, to being BEGGED to play shows along both the East and West coasts. It was wonderful to know that people appreciated that which we were so proud of.<br /><br />Then, inspiration hit. Megaman was being played out, so we shot for Megaman X. The epic was underway, and both the band and its audience was getting super stoked as all shit for it. But, when college calls, bands can fall, and that was the bane for TAIG.<br /><br />We entered hiatus, but we will not stay in this sorry state for long! A short year after the birth of this band, we remixed and mastered a few of our old songs with new drums and better sound. We remastered our original tracks to say two things: 1. We can grow, and 2. We will be back. -This Arm is Gun<br /><br />Heart Pitches performed by Temp Sound Solutions<br />&quot;heart pitches&quot; is a little piece of music that signifies the space inbetween where 'real; conventional; safe' music and abstract music is.<br />Kind of like the semicolon. is that shit really dead; or is it sleeping? Anyways, this song has samples from the first .034 seconds of various candy commercials, The gull wing doors of the Delorean from &quot;Back To The Future&quot;, and main synth samples that are made out of speaker feedback from sampling notes from a c64 computer. We at TSS hope this knowledge about the composition of this song gives you a little insight of what makes this song. Knowing that when you think outside the realm of conventional song structure if that is your norm, or even do the opposite; to cling very slightly to a typical verse/chorus/verse formula when you normally make abstract music in an effort to corner that tiny, defined space inside your song is where we believe a true artists creative spark lives. -Shawn Phase Temp Sound Solutions<br /><br />Shinobi III - Japonesque ft. Girlz Melon and Dark Hero (VS Dual Core) performed by Videogame Orchestra<br />Once again, Videogame Orchestra is much honored to participate in a GM4A compilation. We owe a lot to GM4A and especially Anthony, who is also credited for being the guy responsible for the tracks we submitted. GM4A's freshness and enthusiasm, apart from informing us constantly of all the quality vgm news, has also led us to musical collaborations and in the end, having lots of fun. The tracks we submitted are two of our favorites, mostly because of the talents involved.<br />Japonesque is our first collaboration with guitar extravaganza/ultra-sexy male model Girlz Melon, a remake of our favorite track from Shinobi III. Dark Hero is a remix from the Here Comes a New Challenger compilation track Champion Hero, a result of collaboration with THE most stylish and overall impressive nerdcore rappers on the planet, Dual Core.<br />Videogame Orchestra would like to thank GM4A for its endless friendship and for giving us the opportunity to expand our musical territories. Finally, we would like to give a huge shout to every vgm composer, rapper, listener, fan, promoter, whatever (duh), for being involved with this scene =] -Videogame Orchestra<br /><br />End of the Beginning performed by Dual Core<br />&quot;The drive or the fire for my eternity&quot;, summing up the motivation and condemnation expressed in our newest song, End of the Beginning. As a team, we picked up where we left off at Lost Reality and continued in the same Dual Core direction. Interestingly enough, this is one of the few tracks we have completed together in person -- a feat which has not been accomplished since the culmination of the Super Powers album. Cheers from Westhoughton, England.<br />- - - -<br />Game Music 4 All has been a leading source of music for the Internet. The GM4A releases bring together unlikely, yet powerful collaborations from the far reaches of cyberspace. Truly, this is what makes the Internet great. cheers, -eighty<br /><br />Reincarnated Soul and Aeris Theme performed by Girlz Melon<br />First off, I want to wish the GM4A team a happy anniversary and for being such beautiful buggerz, they could cram more epic into one CD than a Tokyo train pusher.<br /><br />I chose Aeris' Theme to cover for th reason that, I recorded Tifa'z Theme in 2004, and thought it woz time to update my FFVII cover collection!<br /><br />The Castlevania track woz covered not just because th tune iz great, but also that th starting melody remindz me of th film 'A.W.O.L' with Jean-Claude Van Damme (awesome dancer, go watch 'Kickboxer').<br /><br />And finally, I'm going to give you a little advice.<br /><br />There'z a force in the universe that makez thingz happen. And all you have to do iz get in touch with it, stop thinking, let thingz happen, and be the ball. -Girlz Melon<br /><br />Permutation performed by Nicole Adams feat. starla<br />I was invited to join Game Music 4 All's second anniversary compilation after I linked the creators to my MySpace music profile in early 2008. I had started a remix of Donkey Kong Country's &quot;Fear Factory&quot; not long before being asked. GM4A and I agreed it would be great material for the album so I proceeded to come up with a rough arrangement. Once the ideas were in place, I contacted OverClocked ReMixer, starla (aka injury), for lyrics and vocals. She was excited to join and, using the lyrics I wrote for the chorus, got to work writing lyrics for the verses. As the remix was nearing completion, I contacted my internet friend, Entheogen, to perform a screaming electric guitar solo of one of the melodies from the original.<br /><br />The lyrics center around conformity and the restricted thoughts one woman has about being stripped of her individuality by an oppressive government. People are taken to factories where they are essentially turned into machines in order to keep any sort of conflict from arising. Fortunately, human nature prevails and the power of the human mind enables our narrator to understand what it's like to think and feel with absolute freedom. The lyrics mean a lot to me since much of my life consisted of trying to be like everyone else and feeling embarrassed about things that helped define who I was.<br /><br />Big thanks to starla and Entheogen for putting their all into this project. I also need to thank Ross B (rb2k1), SGX and Artificial Artisan for taking the time to critique my demos of the remix and teach me even more about music production. Finally, I'd like to thank the highly dedicated Game Music 4 All team for giving me the opportunity to be a part of the compilation. All of you are amazing!<br /><br />-Nicole Adams I had wanted to collaborate on a song for some time when Nicole approached me through e-mail. From the moment I first heard her WIP, I was impressed by her talent and skill. I of course agreed to lend vocals to her remix. She had done the hard part, all that was left for me to do was write the remainder of the lyrics (she had already written the chorus), create harmonies and record. Working over the internet is much different than in person, since sometimes it can be more difficult to express certain ideas. After several takes, Nicole was pleased with what we had. It was very interesting seeing the mix grow and change over time into what it ended up as. This was absolutely a fun learning experience for me and I definitely hope to contribute to more remixes in the future. -starla (written for OverClocked ReMix)<br /><br />Lyrics:<br />Growing steady now, watching over me<br />I cannot escape, I cannot be free<br />Push it down inside, nothing's what it seems<br />Heavy like the wind, traveling over me<br /><br />Covering my mouth, covering up my eyes<br />Freedom's what they claim, what they advertise<br />Chain me down inside, secrets I can't hide<br />I cannot feel, I cannot breathe freely<br /><br />Reality is by this factory<br />Prescribing what is not in need<br />Personality, what does it mean to me?<br />I cannot think, my mind can't breathe<br /><br />Growing quiet now, falling back to sleep<br />Herding us like cows, treating us like sheep<br />I cannot describe the feelings that I hide<br />Cut me like a knife, steady smooth and deep<br /><br />Similarity, this conformity<br />There's no place to hide in this factory<br />When you close your eyes, what is it that you see?<br />I cannot feel, I cannot breathe freely<br /><br />Reality is by this factory<br />Prescribing what is not in need<br />Personality, what does it mean to me?<br />I cannot think, my mind can't breathe<br /><br />Reality is by this factory<br />Prescribing what is not in need<br />Personality, what does it mean to me?<br />Tell me what's beyond this eternity<br /><br />Reality was by this factory<br />It's products seen are a dying breed<br />Personality consumes all of me<br />The world will see I'm forever free</div>
+<b class="rbot"><b></b></b>
+</div>
+</div>
+
+	</div>
+
+</td>
+<td id="rightcolumn" rowspan="2" style="width: 270px; padding-left: 20px" valign="top">
+
+<div style="width: 250px; background-color: #1B273D">
+<b class="rtop"><b></b></b>
+<div style="padding: 6px 10px 0px 10px"><h3>Album Stats</h3></div>
+</div>
+<div style="width: 250px; background-color: #2F364F;">
+<div class="smallfont" style="padding: 10px 10px 6px 10px">
+
+
+
+<div style="margin-bottom: 10px;"><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Contained in</b> 5 collections<br />
+</div>
+
+<div style="margin-bottom: 10px;"><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Contained in</b> 1 wish lists<br />
+</div>
+
+<div style="margin-bottom: 10px;"><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Category</b><br />
+Game </div>
+
+
+
+
+
+<div id="preview"></div>
+
+</div>
+<b class="rbot"><b></b></b>
+</div>
+
+<br style="clear: left" />
+
+
+
+<div style="width: 250px; background-color: #1B273D">
+<b class="rtop"><b></b></b>
+<div style="padding: 6px 10px 0px 10px"><h3>Websites</h3></div>
+</div>
+<div style="width: 250px; background-color: #2F364F;">
+<div class="smallfont" style="padding: 10px 10px 0px 10px">
+<div style="margin-bottom: 10px"><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Official</b><br />
+<span class='link_doc'><a rel='nofollow' href='/redirect/2616/www.gamemusic4all.com/wtw2/'>Welcome to World 2</a></span>
+</div>
+
+
+
+
+</div>
+<b class="rbot"><b></b></b>
+</div>
+
+<br style="clear: left" />
+
+
+
+
+<div style="width: 250px; background-color: #1B273D">
+<b class="rtop"><b></b></b>
+<div style="padding: 6px 10px 0px 10px"><h3>Related Albums</h3></div>
+</div>
+<div style="width: 250px; background-color: #2F364F;">
+
+
+<div style="padding: 10px 10px 6px 10px">
+<span class="label smallfont"><i>No related albums found.</i></span>
+</div>
+
+<b class="rbot"><b></b></b>
+</div>
+
+<br style="clear: left" />
+
+<div style="width: 250px; background-color: #2F364F;">
+<b class="rtop"><b></b></b>
+
+<div class="smallfont" style="padding: 6px 10px 6px 10px">
+<div style="margin-bottom: 10px;"><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Added</b><br />
+Aug 6, 2008 <span class="time">09:03 AM</span></div>
+
+<div style="margin-bottom: 10px;"><img src="/db/img/arrowbit.gif" alt="" border = "0" /> <b class="label">Edited</b><br />
+Feb 27, 2017 <span class="time">03:33 AM</span></div>
+
+<div style="margin-bottom: 10px;"><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Page traffic</b><br />
+<span class="time">3287</span> visitors<br />
+<span class="time" style="word-break:break-all">0/1</span> freedb<br />
+</div>
+
+<div><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Page built in</b><br />
+<span class="time">0.02</span> seconds</div>
+</div>
+
+<b class="rbot"><b></b></b>
+</div>
+
+
+
+</td>
+
+</tr>
+<tr>
+<td valign="bottom" style="background-color: #1B273D;">
+<b class="rbot"><b></b></b>
+</td>
+</tr>
+</table>
+
+<!-- album tools menu -->
+<div class="vbmenu_popup" id="albumtools_menu" style="display:none">
+<table cellpadding="4" cellspacing="1" border="0">
+	
+	<tr><td class="vbmenu_option">You must be logged in to edit.</td></tr>
+	
+</table>
+</div>
+<!-- / album tools menu -->
+
+
+<!-- / main page contents -->
+
+</div>
+<!-- /content area table -->
+<div style="clear: both; height: 20px"></div>
+
+<div class="alt1" style="width: 100%">
+<div id="footer">
+<div style="padding: 20px 10px 0 200px">
+
+
+
+	<div style="float: right; text-align: right; font-family: Arial;" class="label">
+		<a href="/about">About Us</a> &bull;
+		<a href="/faq">F.A.Q.</a> &bull;
+		<a href="/forums/sendmessage.php" rel="nofollow" accesskey="9">Contact Us</a> &bull;
+		<a href="/db/statistics.php" rel="nofollow">Statistics</a> &bull;
+		<a href="/album/random" rel="nofollow">Random Album</a> &bull;
+		<a href="https://vgmdb.net">Home</a>
+
+		<div class="smallfont" style="font-family: Arial; margin-top: 10px">
+		
+		
+		
+		<a href="/forums/archive/index.php">Archive</a> &bull;
+		
+		<a href="/privacy">Privacy Statement</a> &bull;
+		
+		<a href="#top" onclick="self.scrollTo(0, 0); return false;">Top</a>
+		</div>
+
+	<div style="margin-top: 10px"><form action="index.php" method="get">
+	
+	
+	
+
+	</form></div>
+	</div>
+
+	<div class="label">
+		<h3>VGMdb 1.4</h3>
+		<div class="smallfont"><!-- Do not remove this copyright notice -->
+		
+		<!-- Do not remove this copyright notice --></div>
+		<div class="smallfont">Site code and design copyright VGMdb.net</div>
+		<div class="smallfont">Site material is property of their respective owners.</div>
+		<div class="smallfont">All times are GMT -8. The time now is <span class="time">01:27 PM</span>.</div>
+	</div>
+
+
+
+
+
+</div></div></div>
+
+
+<script type="text/javascript">
+<!--
+	// Main vBulletin Javascript Initialization
+	vBulletin_init();
+//-->
+</script>
+</body>
+</html>

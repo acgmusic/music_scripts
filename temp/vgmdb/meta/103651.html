@@ -1,0 +1,4228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Project Hubbard | PH01 - VGMdb</title>
+
+
+
+
+
+<link href="https://vgmdb.net/album/103651" rel="canonical" />
+
+
+<meta name="keywords" content="PH01, 3DO, Commodore 64, PC, Sega Mega Drive (Genesis), album, ost, soundtrack, tracklist, scans, covers, vgm, translation" />
+<meta name="description" content="Commercial (10 Digital) published by C64Audio, High Technology Publishing on Sep 2020 containing original soundtrack, arrangement" />
+<meta property="og:title" content="PH01 | Project Hubbard - VGMdb" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://medium-media.vgm.io/albums/15/103651/103651-80712dd1c3c0.jpg" />
+<meta property="og:url" content="https://vgmdb.net/album/103651" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@vgmdb" />
+<meta name="twitter:title" content="PH01 | Project Hubbard - VGMdb" />
+<meta name="twitter:description" content="Commercial (10 Digital) published by C64Audio, High Technology Publishing on Sep 2020 containing original soundtrack, arrangement" />
+<meta name="twitter:image" content="https://medium-media.vgm.io/albums/15/103651/103651-80712dd1c3c0.jpg" />
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="VGMdb" />
+
+
+<!-- CSS Stylesheet -->
+<style type="text/css" id="vbulletin_css">
+/**
+* vBulletin 3.8.11 CSS
+* Style: 'Default Style'; Style ID: 1
+*/
+@import url("/forums/clientscript/vbulletin_css/style-5593b98d-00001.css");
+</style>
+<link rel="stylesheet" type="text/css" href="/forums/clientscript/vbulletin_important.css?v=3811" />
+
+
+<link rel="stylesheet" type="text/css" href="/db/vgmdb.css?20220131" />
+<link rel="stylesheet" type="text/css" href="/db/css/vgmdb-colorcode-title.css?20190227" id="colorcode" />
+<link rel="stylesheet" type="text/css" href="/db/jquery.autocomplete.css?20091023" />
+<link rel="stylesheet" type="text/css" href="/db/jquery.jcarousel.css?20091124" />
+<link rel="stylesheet" type="text/css" href="/db/highslide.css?080623" />
+<!-- / CSS Stylesheet -->
+
+<script type="text/javascript" src="/db/clientscript/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="/db/clientscript/connection-min.js"></script>
+<script type="text/javascript">
+<!--
+var SESSIONURL = "";
+var SECURITYTOKEN = "guest";
+var IMGDIR_MISC = "/db/images/misc";
+var vb_disable_ajax = parseInt("1", 10);
+// -->
+</script>
+<script type="text/javascript" src="/forums/clientscript/vbulletin_global.js?v=3811"></script>
+<script type="text/javascript" src="/forums/clientscript/vbulletin_menu.js?v=3811"></script>
+<link rel="alternate" type="application/rss+xml" title="VGMdb Forums RSS Feed" href="/forums/external.php?type=RSS2" />
+
+<script type="text/javascript" src="/db/clientscript/jquery-1.4.min.js"></script>
+<script type="text/javascript" src="/db/clientscript/jquery.compressed.js"></script>
+<script type="text/javascript" src="/db/clientscript/jquery.tristate.js?20100420"></script>
+<script type="text/javascript" src="/db/clientscript/highslide.packed.js?080620"></script>
+<script type="text/javascript" src="/db/clientscript/vgmdb_global.js?220525"></script>
+<link rel="search" type="application/opensearchdescription+xml" title="Search VGMdb" href="/db/search.xml" />
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+<script language="javascript" type="text/javascript">
+$(document).ready(function() {
+	var ItemType = new Array;
+	ItemType["0"] = "Album";
+	ItemType["1"] = "Artist";
+	ItemType["2"] = "Organization";
+	hs.showCredits = false;
+	hs.allowMultipleInstances = false;
+	hs.graphicsDir = '/db/highslide/graphics/';
+	function formatItem(row) {
+		return "<span style='float: right; margin-left: 10px' class='tinyfont label'>" + ItemType[row[3]] + " #" + row[1] + "</span>" + row[0];
+	}
+	$('#navoptions a').click(function() {
+		if (!$('#pref_content form').length) {
+			$.ajax({
+				url: '/db/user.php?do=preferences',
+				beforeSend: function() {
+					$('#navoptions').css('visibility', 'hidden').parent('li').css('background', 'transparent url(/db/img/ajax_loader_small.gif) center center no-repeat');
+				},
+				success: function(data) { 
+					$('#navoptions').css('visibility', 'visible').parent('li').css('background', 'transparent url(/db/img/vgmdbsubnav2010.gif) -593px 0 no-repeat');
+					$('#pref_content').html(data.html);
+					$('#pref_content form label.tristate').tristate();
+					$('#pref_content form').ajaxForm({
+						beforeSubmit: function() {
+							$('#pref_content form input[type=submit]').css('visibility', 'hidden').parent('div').css('background', 'transparent url(/db/img/ajax_loader_small.gif) center center no-repeat');
+						},
+						success: function() {
+							$('#pref').slideUp('fast');
+							$('#pref_content form input[type=submit]').css('visibility', 'visible').parent('div').css('background', 'none');
+							$('#navoptions a').blur();
+						}
+					});
+					$('#pref').slideDown('fast');
+				},
+				dataType: 'json'
+			});
+		}
+		else {
+			if ($('#pref').is(':visible')) {
+				$('#pref').slideUp('fast');
+				$('#navoptions a').blur();
+			}
+			else $('#pref').slideDown('fast');
+		}
+		return false;
+	});
+	$("#simplesearch").autocomplete('/db/ajax-autocomplete.php', {
+		minChars: 3,
+		delay: 1000,
+		max: 150,
+		width: 500,
+		scrollHeight: 600,
+		selectFirst: false,
+		formatItem: formatItem
+	}).result(function(event, item) {
+		location.href = item[2];
+	});
+	$('label.tristate').tristate(); // 'sup IRA
+	
+});</script>
+<meta name="google-site-verification" content="3hoyGArPHzn4HMMeNfYCjhqM5Ci_675U7M7NxbiLJ1A" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6WE0F947BF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6WE0F947BF');
+</script>
+<style>
+.alt1_dark {
+    background: #151F30;
+    color: #FFFFFF;
+}
+
+.alt2_dark {
+    background: #252B3F;
+    color: #FFFFFF;
+}
+span.link_doc { display: block; background: transparent url('/db/icons/album-cover.gif') 0 2px no-repeat; padding-left: 14px; margin-bottom: 4px; }
+</style>
+<!---->
+
+
+<style>tr.extracred { display: none; }</style>
+
+<script language="javascript" type="text/javascript">
+$(document).ready(function() {
+	$("input.button").click(function() { window.clickedButton = $(this); });
+	$("form").submit(function (e) { if (window.clickedButton != null && !window.clickedButton.hasClass("warnbutton")) { $("input.button:not(.warnbutton)").click(function() { return false; }); } });
+	$(".auto-collapse").each(function() {
+		if ($(this).height() >= 42) {
+			$(this).css('cursor', 'pointer').css('overflow', 'hidden');
+			if (!$(this).hasClass("auto-collapse-yellow")) {
+				$(this).children(":first").css('mask-image', 'linear-gradient(to bottom, black 20px, transparent 50px)');
+				$(this).children(":first").css('-webkit-mask-image', 'linear-gradient(to bottom, black 20px, transparent 50px)');
+			}
+			$(this).click(function(e) {
+				$(this).css('max-height', 'none').css('cursor', 'auto');
+				if (!$(this).hasClass("auto-collapse-yellow")) {
+					$(this).children(":first").css('mask-image', '').css('-webkit-mask-image', '');
+				}
+			});
+		}
+	});
+	$('textarea.resizable:not(.processed), select.resizable:not(.processed), div.resizable:not(.processed)').TextAreaResizer();
+	
+	
+	$('#tlnav li a').click(function() {
+		$('#tlnav li').removeClass('active');
+		$(this).parent('li').addClass('active');
+		$('span.tl').hide();
+		$('#' + $(this).attr('rel')).show();
+		return false;
+	});
+	
+	
+	
+	$('table.role tr.rolebit').mouseover(function() { $(this).addClass("over"); });
+	$('table.role tr.rolebit').mouseout(function() { $(this).removeClass("over"); });
+	
+	
+	
+	
+	$(document).ready(function() {
+		$('.collapsible_section').click(function() {
+			var src = $(this).find('img').attr('src');
+			if (src.indexOf('close') > 0) {
+				$(this).find('img').attr('src', src.replace('close', 'open'));
+				$('#' + $(this).attr('rel')).hide('fast');
+			} else {
+				$(this).find('img').attr('src', src.replace('open', 'close'));
+				$('#' + $(this).attr('rel')).show('fast');
+			}
+			return false;
+		});
+	});
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	// shamelessly ripped from Digg
+	var cheatCode = '';
+	var maxCode = 40;
+	$(document).keydown(function(key) {
+		if (cheatCode.length < maxCode) {
+			var k = (key.keyCode == 0) ? key.charCode : key.keyCode;
+			cheatCode = cheatCode + String(k) + ' ';
+			switch (cheatCode) {
+				case '38 40 37 39 65 13 ':
+				window.location='/album/2072';
+				break;
+				case '38 38 40 40 37 39 37 39 66 65 13 ':
+				window.location='/album/3778';
+				break;
+				case '73 68 68 81 68 ':
+				window.location='/album/2950';
+				break;
+			}
+		}
+	});
+});
+</script>
+</head>
+<body style="padding: 0; margin: 0">
+<a name="top"></a>
+<div class="page" style="background-color: #1B273D; height: 100px; width: 100%;">
+<div style="float: right; margin-top: 10px; margin-right: 10px;">
+	<ul class="pipelist tinyfont">
+	
+	<li class="smallfont first-child"><span id="navlogin"><a href="#">Login</a><script type="text/javascript"> vBmenu.register('navlogin'); </script></span></li>
+	<li class="smallfont"><a title="Register a new account" href="/forums/register.php">Register</a></li>
+	
+	</ul>
+</div>
+<div style="white-space: nowrap;">
+<!-- logo -->
+<div style="height: 100px; float: left;"><a href="/"><img src="/db/img/vgmdblogo.png" alt="VGMdb" style="padding: 10px; width: 250px; height: 80px; border: 0" /></a></div>
+<!-- /logo -->
+<!-- top nav -->
+<div style="height: 100px; float: left; position: relative; margin-left: 1px;">
+<ul id="topnav">
+	<li id="nav_album"><a title="Official Albums, Enclosures, Doujins" href="/db/albums.php">Albums</a><a class="buttonSubmit" href="/album/new" title="Submit a new album"><img src="/db/img/button-add-big.png" alt="" /></a></li>
+	<li id="nav_artist"><a title="Composers, Arrangers, Lyricists, Performers" href="/db/artists.php">Artists</a><a class="buttonSubmit" href="/db/artists-submit.php" title="Submit a new artist"><img src="/db/img/button-add-big.png" alt="" /></a></li>
+	<!-- <li id="nav_track"><a title="Instrumentals, Vocals, Sound Effects, Voice Dramas" href="#">Tracks</a></li> -->
+	<li id="nav_label"><a title="Music Labels, Publishers, Organizations and Groups" href="/db/org.php">Organizations</a><a class="buttonSubmit" href="/db/org-submit.php" title="Submit a new publisher"><img src="/db/img/button-add-big.png" alt="" /></a></li>
+	<li id="nav_product"><a title="Games, Video, Radio/Drama Programs, Print Publications" href="/db/product.php">Products</a><a class="buttonSubmit" href="/db/product-submit.php" title="Submit a new product"><img src="/db/img/button-add-big.png" alt="" /></a></li>
+	<li id="nav_event"><a title="Conventions, Gatherings and Shows" href="/db/events.php">Events</a><a class="buttonSubmit" href="/db/event-submit.php" title="Submit a new event"><img src="/db/img/button-add-big.png" alt="" /></a></li>
+	
+	<!--li id="nav_podcast"><a title="VGM Decibel, our bi-monthly podcast" href="/cast">Podcast</a></li-->
+</ul>
+</div>
+<!-- / top nav -->
+</div>
+</div>
+<div class="label" style="clear: both; width: 100%; background-color: #2F364F; font-family: Arial">
+<ul id="subnav">
+	<li id="nav_search" style="width: 250px">
+		<form name="navsearch" action="/search" method="get">
+			<div>
+                 <input type="text" class="bginput smallfont ac_input ac_default" name="q" id="simplesearch" maxlength="150" style="width: 160px;" enterkeyhint="go" />
+                 <select name="type" style="width: 70px;" >
+                    <option value="" >all</option>
+                    <option value="album" >albums</option>
+                    <option value="artist" >artists</option>
+                    <option value="org" >organizations</option>
+                    <option value="product" >products</option>
+                </select>
+            </div>
+		</form>
+	</li>
+	<li id="nav_advsearch"><a title="More search options" href="/search">Advanced Search</a></li>
+	<li id="nav_update"><a title="Latest submissions and edits" href="/db/recent.php">Updates</a></li>
+	<li id="nav_calendar"><a title="Release schedules" href="/db/calendar.php?year=2025&month=2">Calendar</a></li>
+	<li id="nav_forum"><a title="Community discussions" href="/forums/">Forums</a></li>
+	<li id="nav_market"><a title="Trade with other members" href="/db/marketplace.php?do=view">Marketplace</a></li>
+	<!--li id="nav_users"><a title="User collections" href="/db/collection.php">Users</a></li-->
+	<li id="nav_chat"><a title="Real-time chat" rel="nofollow" href="https://discord.gg/VXgKQUa" target="vgmdbchat">Discord</a></li>
+	
+	<li id="nav_submit"><a title="Submit an album" href="/album/new">Submit Album</a></li>
+	<li id="nav_customize"><span id="navoptions"><a title="Edit your preferences" href="#">Customize</a></span></li>
+</ul>
+</div>
+
+
+	<!-- login form -->
+	<div class="vbmenu_popup" id="navlogin_menu" style="display:none;">
+	<table cellpadding="4" cellspacing="1" border="0"><tr><td style="background: #BBC7CE;">
+	<form action="/forums/login.php?do=login" method="post" onsubmit="md5hash(vb_login_password, vb_login_md5password, vb_login_md5password_utf, 0)">
+	<script type="text/javascript" src="/forums/clientscript/vbulletin_md5.js?v=3811"></script>
+	<table cellpadding="0" cellspacing="3" border="0">
+	<tr>
+		<td class="smallfont"><label for="navbar_username">User Name</label></td>
+		<td><input type="text" class="bginput" style="font-size: 11px" name="vb_login_username" id="navbar_username" size="10" accesskey="u" tabindex="101" value="User Name" onfocus="if (this.value == 'User Name') this.value = '';" /></td>
+		<td class="smallfont" colspan="2" nowrap="nowrap"><label for="cb_cookieuser_navbar"><input type="checkbox" name="cookieuser" value="1" tabindex="103" id="cb_cookieuser_navbar" accesskey="c" />Remember</label></td>
+	</tr><tr>
+		<td class="smallfont"><label for="navbar_password">Password</label></td>
+		<td><input type="password" class="bginput" style="font-size: 11px" name="vb_login_password" id="navbar_password" size="10" tabindex="102" /></td>
+		<td><input type="submit" class="button" value="Log in" tabindex="104" title="Enter your username and password in the boxes provided to login, or click the 'register' button to create a profile for yourself." accesskey="s" /></td>
+	</tr>
+	</table>
+	<input type="hidden" name="s" value="" />
+	<input type="hidden" name="securitytoken" value="guest" />
+	<input type="hidden" name="do" value="login" />		
+	<input type="hidden" name="vb_login_md5password" />
+	<input type="hidden" name="vb_login_md5password_utf" />
+	</form>
+	</td></tr></table>
+	</div>
+	<!-- / login form -->
+
+
+<!-- content table -->
+<div class="page" style="padding:20px 20px 0 20px">
+
+<div id="pref" style="width: 100%; background-color:#1B273D; margin-bottom: 20px; display: none">
+	<b class="rtop"><b></b></b>
+	<div id="pref_content"></div>
+	<b class="rbot"><b></b></b>
+</div>
+
+
+
+<!-- main page contents -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" align="left"><tr><td width="100%" style="background-color: #1B273D;" valign="top">
+	<b class="rtop"><b></b></b>
+
+
+	<div id="innermain" style="padding: 6px 10px 0px 10px">
+		<span style="float:right;" class="label smallfont"><a href="/db/albums-discuss.php?id=103651">Discuss</a> | <span id="albumtools"><a href="#">Edit</a><script type="text/javascript"> vBmenu.register('albumtools'); </script></span></span>
+
+		<h1><span class="albumtitle" lang="en" style="display:inline">Project Hubbard</span><span class="albumtitle" lang="ja" style="display:none"><em> / </em>Project Hubbard</span><span class="albumtitle" lang="ja-Latn" style="display:none"><em> / </em>Project Hubbard</span> </h1>
+
+		<div style="padding-left: 10px; padding-right: 10px; padding-bottom: 6px; font-size: 9pt; color: #788990;"><span class="albumtitle" lang="en" style="display:inline"></span><span class="albumtitle" lang="ja" style="display:none">Project Hubbard<br /></span><span class="albumtitle" lang="ja-Latn" style="display:none">Project Hubbard<br /></span></div>
+		<div style="padding-left: 10px; padding-right: 10px; margin-top: 10px;"><div id="leftfloat" style="float: left; width: 250px; height: 250px; padding-top: 4px; padding-bottom: 4px;">
+<div style="width: 250px; height: 250px; overflow: hidden">
+<table cellpadding="0" cellspacing="0" border="0" align="left" width="250">
+<tr><td align="center" valign="middle" style="height: 250px; width:250px">
+<div id="coverart" style="background-image: url('https://medium-media.vgm.io/albums/15/103651/103651-80712dd1c3c0.jpg')" title="PH01"></div>
+</td></tr></table></div></div>
+
+<div id="rightfloat" style="margin-left: 270px;">
+<div style="background-color: #2F364F;">
+<b class="rtop"><b></b></b>
+
+<div style="max-height:300px; overflow:auto;">
+<table id="album_infobit_large" cellpadding="1" cellspacing="1">
+<tr><td nowrap="nowrap"><span class="label"><b>Catalog Number</b></span></td>
+<td width="100%">PH01 
+
+
+</td></tr>
+
+<tr><td nowrap="nowrap"><span class="label"><b>Barcode</b></span></td>
+<td>0728238649135</td></tr>
+
+<tr><td nowrap="nowrap"><span class="label"><b>Release Date</b></span></td>
+<td><a title="View albums released on Sep 2020" href="/db/calendar.php?year=2020&month=9#unknown">Sep 2020</a> </td></tr>
+
+<tr><td nowrap="nowrap"><span class="label"><b>Publish Format</b></span></td>
+<td>Commercial  </td></tr>
+
+<tr><td nowrap="nowrap"><span class="label"><b>Release Price</b></span></td>
+<td>37.00 <acronym title='GBP (Britain)'>GBP</acronym> </td></tr>
+
+<tr><td nowrap="nowrap"><span class="label"><b>Media Format</b></span></td>
+<td>10 Digital</td></tr>
+
+<tr><td nowrap="nowrap"><span class="label"><b>Classification</b></span></td>
+<td>Original Soundtrack, Arrangement </td></tr>
+
+
+    <tr class="maincred"><td nowrap="nowrap"><span class="label"><b>Label</b></span></td><td><a href="/org/2034"><span class="productname" lang="en" style="display:inline">C64Audio</span><span style="display:none"><em> / </em></span><span class="productname" lang="ja" style="display:none">C64Audio</span><span style="display:none"><em> / </em></span><span class="productname" lang="ja-Latn" style="display:none">C64Audio</span></a></td></tr><tr class="maincred"><td nowrap="nowrap"><span class="label"><b>Publisher</b></span></td><td><a href="/org/118"><span class="productname" lang="en" style="display:inline">High Technology Publishing</span><span style="display:none"><em> / </em></span><span class="productname" lang="ja" style="display:none">High Technology Publishing</span><span style="display:none"><em> / </em></span><span class="productname" lang="ja-Latn" style="display:none">High Technology Publishing</span></a></td></tr>
+
+
+
+
+
+</table>
+</div>
+
+<div style="clear: left; line-height: 0; height: 0; overflow: hidden; visibility: hidden"></div>
+<b class="rbot"><b></b></b>
+</div></div>
+
+
+
+
+
+
+
+</div>
+		<br style="clear: both" />
+
+
+
+<div style="padding-left: 10px; padding-right: 10px"><h3><span style="float:left">Credits <a href="#" class="collapsible_section" rel="collapse_credits"><img src="/db/img/collapse_close.png" /></a></span></h3><span style="clear:both;display:block;"></span>
+<div style="background-color: #2F364F;" id="collapse_credits">
+<b class="rtop"><b></b></b>
+<div style="max-height:1000px; padding: 6px 10px 10px 6px; overflow:auto;">
+<table id="album_infobit_large" style="height:auto" cellpadding="1" cellspacing="1">
+<tbody>
+<tr class="maincred"><td nowrap="nowrap"><span class="label"><b><span title="Composer" class="artistname" lang="en" style="display:inline">Composer</span><span style="display:none"><em> / </em></span><span title="Composer" class="artistname" lang="ja" style="display:none">Composer</span></b></span></td><td width="100%"><a href="/artist/1297">Rob Hubbard</a>, <a href="/artist/1420">Jason Page</a>, <a style="color: #00BFFF" href="/artist/3023">Jean-Michel Jarre</a></td></tr><tr class="maincred"><td nowrap="nowrap"><span class="label"><b><span title="Arranger" class="artistname" lang="en" style="display:inline">Arranger</span><span style="display:none"><em> / </em></span><span title="Arranger" class="artistname" lang="ja" style="display:none">Arranger</span></b></span></td><td width="100%"><a href="/artist/1297">Rob Hubbard</a>, <a href="/artist/1633">Marcel Donné</a>, <a href="/artist/32727">Jarle H. Olsen</a>, <a href="/artist/1640">Matt Gray</a>, <a href="/artist/1313">Barry Leitch</a>, Johan Andersson, <a href="/artist/1948">Instant Remedy</a>, Mordi, daXX, <a href="/artist/1420">Jason Page</a>, Sidman, <a href="/artist/57206">TDK</a>, <a href="/artist/23493">Uncle and The Bacon</a>, <a href="/artist/1632">Chris Abbott</a>, <a href="/artist/2167">Alistair Bowness</a></td></tr><tr class="maincred"><td nowrap="nowrap"><span class="label"><b><span title="Performer" class="artistname" lang="en" style="display:inline">Performer</span><span style="display:none"><em> / </em></span><span title="Performer" class="artistname" lang="ja" style="display:none">Performer</span></b></span></td><td width="100%"><a href="/artist/32726">Fastloaders</a>, <a href="/artist/1297">Rob Hubbard</a></td></tr>
+</tbody>
+</table>
+</div>
+<b class="rbot"><b></b></b>
+</div></div><br/>
+
+		<div style="padding-left: 10px; padding-right: 10px">
+		
+			<div><h3 style="float: left">Tracklist <a href="#" class="collapsible_section" rel="tracklist"><img src="/db/img/collapse_close.png" /></a></h3>
+			<ul id="tlnav" class="tabnav" style="margin-left: 10px"><li class="active"><a class='smallfont' rel='tl139368' href='#'>English</a></li></ul>
+			</div>
+
+			<div style="background-color: #2F364F; clear: both">
+			<b class="rtop"><b></b></b>
+			<div style="padding: 6px 10px 10px 10px" id="tracklist"><span class="tl" id="tl139368">
+	<!-- / tracklist tools menu -->
+<span style="font-size:8pt"><b>Disc 1 [ROB1]</b></span><span class="label" style="font-size:8pt"> Original Work</span>
+<br /><br />
+<table cellpadding="1" cellspacing="0" border="0" class="role">
+<tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">01</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Lakers Vs Celtics - 8580</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:46</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">02</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Pygmies Revenge - 6581</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:01</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">03</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Casio 7 Inch Mix - 8580</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:25</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">04</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Mr Meaner - 6581</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:29</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">05</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Radio Ace - 8580</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:07</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">06</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Go Go Dash - 8580</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:20</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">07</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Lionheart - 8580</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:45</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">08</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Off the Cuff - 6581</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:26</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">09</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+After 8 - 6581</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:59</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">10</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Dont Step On My Wire - 8580</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:30</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">11</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Pacific - 8580</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:41</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">12</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Sun Never Shines - 8580</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:52</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">13</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Rikky - 6581</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:11</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">14</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Task Force - 8580</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:42</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">15</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Casio 12 Inch Mix - 8580</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:18</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">16</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+The Rock Tells The Tale - 6581</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">6:31</span>
+
+</td>
+</tr>
+</table>
+<span style="float: right; margin: 1px;">
+  <span class="smallfont" style="color: #606978">Disc length</span>
+  <span class="time">69:03</span>
+</span>
+<br style="clear: both" />
+
+<span style="font-size:8pt"><b>Disc 2 [H80]</b></span><span class="label" style="font-size:8pt"> Arrangement</span>
+<br /><br />
+<table cellpadding="1" cellspacing="0" border="0" class="role">
+<tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">01</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+The Last V8</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:07</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">02</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Human Race #1</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:57</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">03</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Braking Hard (Indy 500)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:32</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">04</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+688 Attack Sub</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:24</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">05</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Bump Set Spike</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:26</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">06</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Hydrofool</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:20</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">07</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Final Synth Sample</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:45</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">08</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Lightforce</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">8:00</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">09</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Ricochet (WIP)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:49</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">10</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Chimera</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:18</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">11</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Knucklebusters Intro</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:41</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">12</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Knight Tyme</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:52</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">13</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+W.A.R</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:00</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">14</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Trans-Atlantic Balloon Challenge</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:48</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">15</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Thrust</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">6:02</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">16</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Gerry The Germ</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:55</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">17</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Thalamusic</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:42</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">18</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Crazy Comets</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:06</span>
+
+</td>
+</tr>
+</table>
+<span style="float: right; margin: 1px;">
+  <span class="smallfont" style="color: #606978">Disc length</span>
+  <span class="time">73:44</span>
+</span>
+<br style="clear: both" />
+
+<span style="font-size:8pt"><b>Disc 3 [PHA1]</b></span><span class="label" style="font-size:8pt"> Original Soundtrack</span>
+<br /><br />
+<table cellpadding="1" cellspacing="0" border="0" class="role">
+<tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">01</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Casio</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:38</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">02</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Dont step on my wire</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">9:08</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">03</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Old Demo with Piano Chords and Moog</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:35</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">04</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Sun never shines</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:29</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">05</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+French Dream</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:14</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">06</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Mr. Meaner</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">6:22</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">07</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Task Force</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:17</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">08</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Dark One</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:22</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">09</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Little dripper S</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:07</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">10</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+OMAHD</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:26</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">11</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Early Demo Tune</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:29</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">12</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+The Lionheart</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:16</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">13</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Chimera</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:14</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">14</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Formula 1</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:17</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">15</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Phantoms of the Asteroid</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:45</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">16</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+After 8</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:00</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">17</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Old Synth Suite - Pre-curse (Part 1)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">8:14</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">18</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Old Synth Suite - Pre-curse (Part 2)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:23</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">19</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Old Synth Suite - Pre-curse (Part 3)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:54</span>
+
+</td>
+</tr>
+</table>
+<span style="float: right; margin: 1px;">
+  <span class="smallfont" style="color: #606978">Disc length</span>
+  <span class="time">77:10</span>
+</span>
+<br style="clear: both" />
+
+<span style="font-size:8pt"><b>Disc 4 [PHA2]</b></span><span class="label" style="font-size:8pt"> Original Soundtrack</span>
+<br /><br />
+<table cellpadding="1" cellspacing="0" border="0" class="role">
+<tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">01</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Ski Or Die</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:54</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">02</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+John Madden Football End Game Part 1</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:01</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">03</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Populous</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:50</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">04</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Paint 3 Award Theme</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:00</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">05</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Indy 500 (Braking Hard)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:08</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">06</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+John Madden Football End Game Part 2</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:12</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">07</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Pygmies Revenge</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">7:14</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">08</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+PGA Tour Golf 96 Piano Theme</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:29</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">09</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Shockwave Operation Jumpgate Intro</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:55</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">10</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Final Synth Sample</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:57</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">11</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Centurion</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:38</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">12</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+John Madden Football Half-time</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:59</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">13</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Lakers vs Celtics Title</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:55</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">14</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Era of Eidolon</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:08</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">15</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+PGA Tour Golf 96 Main Theme</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:07</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">16</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Low Blow</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:48</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">17</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Shockwave Operation Jumpgate Endgame</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:00</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">18</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Holmes - Equestrian</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:29</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">19</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+John Madden Football High Score</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:13</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">20</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Holmes - Anna P2</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:18</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">21</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Lakers vs Celtics Unused</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:02</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">22</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Romance Theme</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:11</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">23</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+PGA Tour Golf 96 Menu</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:17</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">24</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Lakers vs Celtics Half-Time</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:53</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">25</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Saboteur 2</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:19</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">26</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Sega Disco</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:02</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">27</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Lakers vs Celtics End</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:18</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">28</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Rikky</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:20</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">29</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Era of Eidolon Village Theme</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:17</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">30</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Radio Ace</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:10</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">31</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Pacific Coast</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:18</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">32</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Shockwave Operation Jumpgate Credits</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:35</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">33</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Knight Tyme</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:54</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">34</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Madden 3DO Credits</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:18</span>
+
+</td>
+</tr>
+</table>
+<span style="float: right; margin: 1px;">
+  <span class="smallfont" style="color: #606978">Disc length</span>
+  <span class="time">80:09</span>
+</span>
+<br style="clear: both" />
+
+<span style="font-size:8pt"><b>Disc 5 [TDK1]</b></span><span class="label" style="font-size:8pt"> Arrangement</span>
+<br /><br />
+<table cellpadding="1" cellspacing="0" border="0" class="role">
+<tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">01</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Nemesis the Warlock</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">7:19</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">02</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Kentilla</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">13:23</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">03</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Delta In-Game</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">11:31</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">04</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Knucklebusters</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">14:38</span>
+
+</td>
+</tr>
+</table>
+<span style="float: right; margin: 1px;">
+  <span class="smallfont" style="color: #606978">Disc length</span>
+  <span class="time">46:51</span>
+</span>
+<br style="clear: both" />
+
+<span style="font-size:8pt"><b>Disc 6 [USB1B]</b></span><span class="label" style="font-size:8pt"> Arrangement</span>
+<br /><br />
+<table cellpadding="1" cellspacing="0" border="0" class="role">
+<tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">01</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Crazy Comets</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:28</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">02</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Sanxion Title</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:22</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">03</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Train Robblers (Final Synth Sample 2)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:14</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">04</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Star Paws</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:52</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">05</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Delta Title</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:11</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">06</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+International Karate</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">8:36</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">07</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Auf Wiedersehen Monty</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">6:50</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">08</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Monty On The Run</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">6:16</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">09</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Monty On The Run High Score</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:19</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">10</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Knucklebusters</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">16:46</span>
+
+</td>
+</tr>
+</table>
+<span style="float: right; margin: 1px;">
+  <span class="smallfont" style="color: #606978">Disc length</span>
+  <span class="time">57:54</span>
+</span>
+<br style="clear: both" />
+
+<span style="font-size:8pt"><b>Disc 7 [FL03]</b></span><span class="label" style="font-size:8pt"> Arrangement</span>
+<br /><br />
+<table cellpadding="1" cellspacing="0" border="0" class="role">
+<tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">01</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Skate or Die</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:53</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">02</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+International Karate</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">9:11</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">03</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Dragon's Zoids</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:42</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">04</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+One Man And His Droid</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">6:42</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">05</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Lightforce</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">7:20</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">06</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Warhawk</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:32</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">07</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Ace II</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:24</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">08</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Saboteur II</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:21</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">09</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Delta</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:09</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">10</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Commando High Score</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:26</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">11</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Arcade Classics</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">6:50</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">12</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Commando</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:04</span>
+
+</td>
+</tr>
+</table>
+<span style="float: right; margin: 1px;">
+  <span class="smallfont" style="color: #606978">Disc length</span>
+  <span class="time">65:34</span>
+</span>
+<br style="clear: both" />
+
+<span style="font-size:8pt"><b>Disc 8</b></span><span class="label" style="font-size:8pt"> Arrangement</span>
+<br /><br />
+<table cellpadding="1" cellspacing="0" border="0" class="role">
+<tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">01</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+The Last V8</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:40</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">02</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Spellbound</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">8:48</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">03</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Sanxion Loader (Thalamusik) 2014 Retro Remake</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">6:09</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">04</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Dragon's Lair II (River Caves Surf Mix)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:25</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">05</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Commando Main Theme</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">7:00</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">06</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Monty on the Run Suite</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">8:35</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">07</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Thrust</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">6:55</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">08</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+The Last V8</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:39</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">09</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Nemesis the Warlock</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:10</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">10</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+One Man and his Droid</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">6:34</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">11</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Delta (daXX - Good Bye Remix)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:34</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">12</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Zoids</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:46</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">13</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Thrust Like Crazy</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">8:13</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">14</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Skate or Rob</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:47</span>
+
+</td>
+</tr>
+</table>
+<span style="float: right; margin: 1px;">
+  <span class="smallfont" style="color: #606978">Disc length</span>
+  <span class="time">84:15</span>
+</span>
+<br style="clear: both" />
+
+<span style="font-size:8pt"><b>Disc 9 [PS03SE]</b></span><span class="label" style="font-size:8pt"> Arrangement</span>
+<br /><br />
+<table cellpadding="1" cellspacing="0" border="0" class="role">
+<tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">01</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Intro</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:03</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">02</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Sanquinoxe</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">7:00</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">03</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+CrazyMegaBangkokEtc</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">6:54</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">04</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Phantoms of the Asteroid</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">6:27</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">05</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Shockway Rider</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:40</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">06</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Knucklebusters</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">17:15</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">07</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Gerry The Germ</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">6:47</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">08</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Jet Set Willy</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:53</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">09</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Casio</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">6:49</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">10</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Lightforce</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">7:47</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">11</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+One Man and his Droid</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">8:22</span>
+
+</td>
+</tr>
+</table>
+<span style="float: right; margin: 1px;">
+  <span class="smallfont" style="color: #606978">Disc length</span>
+  <span class="time">79:57</span>
+</span>
+<br style="clear: both" />
+
+<span style="font-size:8pt"><b>Disc 10</b></span><span class="label" style="font-size:8pt"> Original Soundtrack, Arrangement</span>
+<br /><br />
+<table cellpadding="1" cellspacing="0" border="0" class="role">
+<tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">01</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+ACE II (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:13</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">02</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Action Biker (Game Over)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:11</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">03</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Action Biker (In-game)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:08</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">04</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Action Biker (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:02</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">05</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Arcade Classics (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">6:42</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">06</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Auf Wiedersehen Monty (Deutchlandied)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:07</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">07</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Auf Wiedersehen Monty (God Save the Queen)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:08</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">08</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Auf Wiedersehen Monty (Jingle 2)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:09</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">09</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Auf Wiedersehen Monty (Jingle)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:09</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">10</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Auf Wiedersehen Monty (La Marseillaise)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:09</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">11</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Auf Wiedersehen Monty ('O Sole Mio)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:08</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">12</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Auf Wiedersehen Monty (O Tannenbaum)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:10</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">13</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Auf Wiedersehen Monty (Swedish Chef)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:12</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">14</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Auf Wiedersehen Monty (Symphony No. 40, First movement)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:09</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">15</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Auf Wiedersehen Monty (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">6:08</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">16</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Auf Wiedersehen Monty (Tulpen uit Amsterdam)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:08</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">17</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Auf Wiedersehen Monty (Viva España)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:08</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">18</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Auf Wiedersehen Monty (Zorba the Greek)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:06</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">19</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Bangkok Knights (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">6:29</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">20</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Battle Of Britain (Main Menu)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:02</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">21</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+BMX Kidz (Race End)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:02</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">22</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+BMX Kidz (Race Start)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:02</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">23</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+BMX Kidz (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:05</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">24</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+BMX Kidz High Score (Fifth Dream About Happiness)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:52</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">25</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Bump Set Spike (Beach)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:56</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">26</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Bump Set Spike (Indoor)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:13</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">27</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Chain Reaction (&quot;Zoolook&quot;)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:19</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">28</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Chicken Song</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:06</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">29</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Chimera (AAAARRGGH!)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:02</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">30</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Chimera (High Score)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:11</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">31</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Chimera (Speech)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:02</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">32</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Chimera (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:49</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">33</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Commando (End of Level)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:06</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">34</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Commando (High Score)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:06</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">35</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Commando (Main)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:03</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">36</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Confuzion (Main)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:04</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">37</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Crazy Comets (High Score)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:13</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">38</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Crazy Comets (Main)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:38</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">39</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Deep Strike (Theme from 1941)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:38</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">40</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Delta (High Score)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:31</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">41</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Delta (In-Game)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">11:25</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">42</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Delta (Romeo and Juliet jingle 1)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:06</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">43</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Delta (Romeo and Juliet jingle 2)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:08</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">44</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Delta (Romeo and Juliet jingle 3)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:08</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">45</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Delta (Romeo and Juliet jingle 4)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:11</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">46</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Delta (Romeo and Juliet jingle 5)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:13</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">47</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Delta (Thalamusik Jingle 1)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:05</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">48</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Delta (Thalamusik Jingle 2)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:05</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">49</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Delta (Thalamusik Jingle 3)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:09</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">50</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Delta (Thalamusik Jingle 4)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:09</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">51</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Delta (Thalamusik Jingle 5)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:06</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">52</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Delta (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:45</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">53</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Delta Mix-E-Load (Sample Medley)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">6:12</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">54</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Dragon's Lair Part II (Boulder Alley)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:39</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">55</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Dragon's Lair Part II (Death)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:07</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">56</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Dragon's Lair Part II (Doom Dungeon)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:49</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">57</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Dragon's Lair Part II (Dungeons of the Lizard King)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:33</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">58</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Dragon's Lair Part II (Magical Flying Horses)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:16</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">59</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Dragon's Lair Part II (Mud Monsters)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:17</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">60</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Dragon's Lair Part II (Mystic Mosaic)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:47</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">61</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Dragon's Lair Part II (The River Caves)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:07</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">62</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Dragon's Lair Part II (Throne Room)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:05</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">63</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Dragon's Lair Part II (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:08</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">64</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Final Synth Sample I (Gremlins 1)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:32</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">65</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Final Synth Sample I (Gremlins 2)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:37</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">66</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Final Synth Sample I (Gremlins 3)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:53</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">67</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Final Synth Sample I (Gremlins 4)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:43</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">68</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Final Synth Sample I (Gremlins 5)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:03</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">69</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Final Synth Sample I (Gremlins 6)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:26</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">70</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Final Synth Sample I (Gremlins 7)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:06</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">71</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Final Synth Sample II (Educational)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:08</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">72</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Final Synth Sample II (Formula One Simulator)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:56</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">73</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Final Synth Sample II (Short Title Tune)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:58</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">74</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Final Synth Sample II (Space Game)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:49</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">75</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Final Synth Sample II (Train Game/Locomotion)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:03</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">76</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Flash Gordon (Drums 1)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:13</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">77</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Flash Gordon (Drums 2)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:10</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">78</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Flash Gordon (Jingle 1)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:06</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">79</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Flash Gordon (Jingle 2)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:45</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">80</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Flash Gordon (Jingle 3)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:55</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">81</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Flash Gordon (Jingle 4)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:10</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">82</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Flash Gordon (Jingle 5)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:46</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">83</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Flash Gordon (Jingle 6)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:22</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">84</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Flash Gordon (Main)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">6:23</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">85</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Food Feud</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:06</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">86</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Formula 1 Simulator (Race Start)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:03</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">87</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Formula 1 Simulator (Title/Menu)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:43</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">88</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Game Killer</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:03</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">89</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Geoff Capes Strongman Challenge (Entry of the Gladiators)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:10</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">90</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Geoff Capes Strongman Challenge (Jingle 1)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:11</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">91</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Geoff Capes Strongman Challenge (Jingle 2)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:10</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">92</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Geoff Capes Strongman Challenge (Skoda Lasky)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:16</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">93</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Geoff Capes Strongman Challenge (Song of the Volga Boatmen)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:15</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">94</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Geoff Capes Strongman Challenge (The Lumberjack Song)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:10</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">95</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Gerry The Germ (Bladder)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:39</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">96</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Gerry The Germ (End)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:55</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">97</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Gerry The Germ (Heart)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:18</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">98</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Gerry The Germ (Kidney)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:56</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">99</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Gerry The Germ (Lungs)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:39</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">100</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Gerry The Germ (Pancreas)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:50</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">101</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Gerry The Germ (Stomach)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:45</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">102</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Hollywood Or Bust (Dill Pickles Rag)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:04</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">103</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Hollywood Or Bust (Twelfth Street Rag)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:16</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">104</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Hollywood Or Bust</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:09</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">105</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Human Race (Level 1)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:52</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">106</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Human Race (Level 2)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:23</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">107</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Human Race (Level 3)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:10</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">108</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Human Race (Level 4)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:07</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">109</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Human Race (Level 5)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:33</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">110</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Hunter Patrol (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:40</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">111</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+I Ball (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:58</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">112</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+IK Plus (Main)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">7:46</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">113</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+International Karate (Main)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">10:43</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">114</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Kentilla (Main)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">12:57</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">115</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Kings Of The Beach (Aloha `Oe)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:06</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">116</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Kings Of The Beach (Intro)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:30</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">117</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Kings Of The Beach (Jingle 1)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:04</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">118</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Kings Of The Beach (Jingle 2)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:08</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">119</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Kings Of The Beach (Jingle 3)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:06</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">120</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Kings Of The Beach (Jingle 4)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:09</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">121</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Kings Of The Beach (Jingle 5)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:08</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">122</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Kings Of The Beach (Waltzing Matilda)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:07</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">123</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Knucklebusters (Game Intro)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:58</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">124</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Knucklebusters (In-Game)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">16:41</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">125</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Knucklebusters (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:21</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">126</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Las Vegas Video Poker (Jingle 1)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:04</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">127</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Las Vegas Video Poker (Jingle 2)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:05</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">128</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Las Vegas Video Poker (The Easy Winners)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:45</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">129</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Last V8 (128 version) (Game Over)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:13</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">130</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Last V8 (128 version) (In-Game)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:23</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">131</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Last V8 (128 version) (Returned to Base)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:10</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">132</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Last V8 (Game Over)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:13</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">133</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Last V8 (In-Game)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:23</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">134</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Last V8 (Radioactive Zones)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:03</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">135</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Last V8 (Return to Base)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:04</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">136</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Last V8 (Returned to Base)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:10</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">137</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Lightforce (Main)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">7:05</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">138</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Master of Magic (Game Over)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:12</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">139</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Master of Magic (Main)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:21</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">140</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Master of Magic (Success)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:23</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">141</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Mega Apocalypse (Main)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">7:24</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">142</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Monty On The Run (Game Over)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:12</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">143</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Monty On The Run (High Score)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:16</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">144</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Monty On The Run (Main)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">6:00</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">145</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Mozart</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:05</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">146</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Nemesis The Warlock (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">7:13</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">147</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Nineteen</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:21</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">148</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Ninja (Main)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:25</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">149</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+One Man And His Droid (Main)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:54</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">150</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+One on One - Jordan vs Bird (Jingle 1)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:04</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">151</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+One on One - Jordan vs Bird (Jingle 2)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:04</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">152</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+One on One - Jordan vs Bird (Stats Table)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:42</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">153</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+One on One - Jordan vs Bird (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:09</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">154</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Pandora</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:36</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">155</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Phantoms of The Asteroid (Game Over)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:19</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">156</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Phantoms of The Asteroid (High Score)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:24</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">157</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Phantoms of The Asteroid (In-Game)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:24</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">158</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Phantoms of The Asteroid (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:20</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">159</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Powerplay Hockey - USA vs USSR (Charge Jingle)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:03</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">160</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Powerplay Hockey - USA vs USSR (Czardas)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:16</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">161</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Powerplay Hockey - USA vs USSR (Hockey Theme)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:20</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">162</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Powerplay Hockey - USA vs USSR (Na Na Hey Hey Kiss Him Goodbye)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:08</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">163</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Powerplay Hockey - USA vs USSR (Rasputin Tune 1)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:21</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">164</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Powerplay Hockey - USA vs USSR (Song of the Volga Boatman)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:07</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">165</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Powerplay Hockey - USA vs USSR (The Stars and Stripes Forever)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:34</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">166</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Powerplay Hockey - USA vs USSR (The Washington Post)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:05</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">167</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Powerplay Hockey - USA vs USSR (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:47</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">168</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Powerplay Hockey - USA vs USSR (Yankee Doodle Dandy)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:07</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">169</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Proteus</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:05</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">170</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Rasputin (Main)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:59</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">171</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Rasputin (Victory)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:10</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">172</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Ricochet (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:26</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">173</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Saboteur II (In-Game)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:17</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">174</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Samantha Fox Strip Poker (Jingle 1)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:11</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">175</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Samantha Fox Strip Poker (Jingle 2)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:04</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">176</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Samantha Fox Strip Poker (Jingle 3)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:04</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">177</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Samantha Fox Strip Poker (The Entertainer)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:32</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">178</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Samantha Fox Strip Poker (The Stripper)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:44</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">179</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Sanxion (Loading)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:33</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">180</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Sanxion (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:06</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">181</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Sanxion Remix</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">6:04</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">182</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Shockway Rider (Main)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:35</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">183</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Sigma Seven (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:12</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">184</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Skate Or Die (Intro - fast)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:13</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">185</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Skate Or Die (Intro - slower)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:13</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">186</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Spellbound (Game Over)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:10</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">187</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Spellbound (Prologue)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:22</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">188</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Spellbound</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:40</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">189</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Star Paws (Bonus Puzzle)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:22</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">190</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Star Paws (Cannon Shoot)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:10</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">191</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Star Paws (Main)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:38</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">192</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Synth Sample III (Blue Monday)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:20</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">193</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Synth Sample III (Casio)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:58</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">194</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Synth Sample III (Dancing With Tears In My Eyes)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:48</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">195</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Synth Sample III (Demo End)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:10</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">196</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Synth Sample III (Do or Die)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:34</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">197</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Synth Sample III (Hard Times)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:44</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">198</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Synth Sample III (Jingle 1)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:42</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">199</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Synth Sample III (Jingle 2)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:17</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">200</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Synth Sample III (Jingle 3)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:38</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">201</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Synth Sample III (Love Kills)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:33</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">202</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Synth Sample III (On the Beautiful Blue Danube)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:47</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">203</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Synth Sample III (Rondo Alla Turca)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:25</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">204</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Synth Sample III (Some Guys Have All The Luck)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:45</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">205</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Synth Sample III (Theme from the Great Escape)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:42</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">206</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Synth Sample III (Why?)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:34</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">207</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Tarzan (Jingle 1)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:17</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">208</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Tarzan (Jingle 2)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:22</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">209</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Tarzan (Jingle 3)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:15</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">210</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Tarzan (Jingle 4)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:33</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">211</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Tarzan (Jingle 5)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:43</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">212</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Tarzan (Jingle 6)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:28</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">213</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Tarzan (Jingle 7)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:28</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">214</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Tarzan (Jingle 8)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:13</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">215</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Tarzan (Tarzan Scream)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:03</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">216</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Tarzan (Tarzan's March)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:32</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">217</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Tarzan (TV Jingle)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:18</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">218</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Tarzan (TV Jingle 2)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:21</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">219</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Thanatos (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:07</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">220</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Thing On A Spring (Main)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:38</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">221</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Thrust (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">6:49</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">222</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Thundercats (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:15</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">223</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Trans-Atlantic Balloon Challenge (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:23</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">224</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Up Up And Away (A Windmill in Old Amsterdam)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:12</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">225</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Up Up And Away (Funeral March)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:04</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">226</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Up Up And Away (Roll Out The Barrel)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:08</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">227</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Up Up And Away (Those Magnificent Man In Their Flying Machines)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:13</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">228</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Up Up And Away</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:52</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">229</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+W.A.R (Colour Lock Deactivated)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:04</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">230</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+W.A.R (Colour Lock Fail)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:03</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">231</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+W.A.R (Crazy Comets High Score)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:02</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">232</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+W.A.R (Deactivate Colour Lock)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:20</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">233</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+W.A.R (Game Over)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:06</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">234</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+W.A.R (Get Ready)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:03</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">235</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+W.A.R (High Score)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:51</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">236</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+W.A.R (Mystery Tune)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:56</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">237</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+W.A.R (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">9:56</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">238</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+W.A.R Preview</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:36</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">239</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Warhawk (Game Over)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:07</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">240</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Warhawk (High Score)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:15</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">241</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Warhawk (Level Complete)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:03</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">242</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Warhawk (Main)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:23</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">243</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Wiz (Flourish)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:05</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">244</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Wiz (Mystery)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:56</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">245</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Wiz (Title)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:49</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">246</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Zoids (In-Game)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">5:02</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">247</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Zoids (Jingle 1)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:08</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">248</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Zoids (Jingle 2)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:16</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">249</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+Zoolook</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">4:20</span>
+
+</td>
+</tr>
+</table>
+<span style="float: right; margin: 1px;">
+  <span class="smallfont" style="color: #606978">Disc length</span>
+  <span class="time">484:51</span>
+</span>
+<br style="clear: both" />
+<h4 style="font-weight: normal; clear:both"><span class="label">
+
+&nbsp;</span>
+
+<span style="float: right; margin: 1px;">
+<span class="smallfont" style="color: #606978">Total tracks</span>
+<span class="time" style="font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, Meiryo, sans-serif;">
+387
+</span>
+&nbsp;
+<span class="smallfont" style="color: #606978">Total length</span>
+<span class="time" style="font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, Meiryo, sans-serif;">
+18:39:28
+</span>
+
+</span>
+
+</h4></span>
+</div>
+			<b class="rbot"><b></b></b>
+			</div>
+
+		</div>
+
+<div style="padding: 20px 10px 10px 10px">
+<h3>Notes  <a href="#" class="collapsible_section" rel="collapse_notes"><img src="/db/img/collapse_close.png" /></a></h3>
+<div style="background-color: #2F364F;" id="collapse_notes">
+<b class="rtop"><b></b></b>
+<div style="padding: 6px 10px 10px 10px" class="smallfont" id="notes"><i class='label'>No notes available for this album.</i></div>
+<b class="rbot"><b></b></b>
+</div>
+</div>
+
+	</div>
+
+</td>
+<td id="rightcolumn" rowspan="2" style="width: 270px; padding-left: 20px" valign="top">
+
+<div style="width: 250px; background-color: #1B273D">
+<b class="rtop"><b></b></b>
+<div style="padding: 6px 10px 0px 10px"><h3>Album Stats</h3></div>
+</div>
+<div style="width: 250px; background-color: #2F364F;">
+<div class="smallfont" style="padding: 10px 10px 6px 10px">
+
+
+
+<div style="margin-bottom: 10px;"><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Contained in</b> 2 collections<br />
+</div>
+
+<div style="margin-bottom: 10px;"><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Contained in</b> 0 wish lists<br />
+</div>
+
+<div style="margin-bottom: 10px;"><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Category</b><br />
+Game </div>
+
+
+
+<div><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Platforms represented</b><br />
+3DO, Commodore 64, PC, Sega Mega Drive (Genesis) </div>
+
+<div id="preview"></div>
+
+</div>
+<b class="rbot"><b></b></b>
+</div>
+
+<br style="clear: left" />
+
+
+
+
+
+
+
+<div style="width: 250px; background-color: #1B273D">
+<b class="rtop"><b></b></b>
+<div style="padding: 6px 10px 0px 10px"><h3>Related Albums</h3></div>
+</div>
+<div style="width: 250px; background-color: #2F364F;">
+
+
+<div style="padding: 10px 10px 6px 10px">
+<span class="label smallfont"><i>No related albums found.</i></span>
+</div>
+
+<b class="rbot"><b></b></b>
+</div>
+
+<br style="clear: left" />
+
+<div style="width: 250px; background-color: #2F364F;">
+<b class="rtop"><b></b></b>
+
+<div class="smallfont" style="padding: 6px 10px 6px 10px">
+<div style="margin-bottom: 10px;"><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Added</b><br />
+Sep 8, 2020 <span class="time">03:28 PM</span></div>
+
+<div style="margin-bottom: 10px;"><img src="/db/img/arrowbit.gif" alt="" border = "0" /> <b class="label">Edited</b><br />
+May 3, 2022 <span class="time">10:22 PM</span></div>
+
+<div style="margin-bottom: 10px;"><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Page traffic</b><br />
+<span class="time">1038</span> visitors<br />
+<span class="time" style="word-break:break-all">-/-/-/-/1/-/-/-/-/-</span> freedb<br />
+</div>
+
+<div><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Page built in</b><br />
+<span class="time">0.07</span> seconds</div>
+</div>
+
+<b class="rbot"><b></b></b>
+</div>
+
+
+
+</td>
+
+</tr>
+<tr>
+<td valign="bottom" style="background-color: #1B273D;">
+<b class="rbot"><b></b></b>
+</td>
+</tr>
+</table>
+
+<!-- album tools menu -->
+<div class="vbmenu_popup" id="albumtools_menu" style="display:none">
+<table cellpadding="4" cellspacing="1" border="0">
+	
+	<tr><td class="vbmenu_option">You must be logged in to edit.</td></tr>
+	
+</table>
+</div>
+<!-- / album tools menu -->
+
+
+<!-- / main page contents -->
+
+</div>
+<!-- /content area table -->
+<div style="clear: both; height: 20px"></div>
+
+<div class="alt1" style="width: 100%">
+<div id="footer">
+<div style="padding: 20px 10px 0 200px">
+
+
+
+	<div style="float: right; text-align: right; font-family: Arial;" class="label">
+		<a href="/about">About Us</a> &bull;
+		<a href="/faq">F.A.Q.</a> &bull;
+		<a href="/forums/sendmessage.php" rel="nofollow" accesskey="9">Contact Us</a> &bull;
+		<a href="/db/statistics.php" rel="nofollow">Statistics</a> &bull;
+		<a href="/album/random" rel="nofollow">Random Album</a> &bull;
+		<a href="https://vgmdb.net">Home</a>
+
+		<div class="smallfont" style="font-family: Arial; margin-top: 10px">
+		
+		
+		
+		<a href="/forums/archive/index.php">Archive</a> &bull;
+		
+		<a href="/privacy">Privacy Statement</a> &bull;
+		
+		<a href="#top" onclick="self.scrollTo(0, 0); return false;">Top</a>
+		</div>
+
+	<div style="margin-top: 10px"><form action="index.php" method="get">
+	
+	
+	
+
+	</form></div>
+	</div>
+
+	<div class="label">
+		<h3>VGMdb 1.4</h3>
+		<div class="smallfont"><!-- Do not remove this copyright notice -->
+		
+		<!-- Do not remove this copyright notice --></div>
+		<div class="smallfont">Site code and design copyright VGMdb.net</div>
+		<div class="smallfont">Site material is property of their respective owners.</div>
+		<div class="smallfont">All times are GMT -8. The time now is <span class="time">10:29 AM</span>.</div>
+	</div>
+
+
+
+
+
+</div></div></div>
+
+
+<script type="text/javascript">
+<!--
+	// Main vBulletin Javascript Initialization
+	vBulletin_init();
+//-->
+</script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9179c37dae038469',t:'MTc0MDUwODE5NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

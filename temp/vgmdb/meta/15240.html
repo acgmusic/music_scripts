@@ -1,0 +1,3895 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>La Tale - VGMdb</title>
+
+
+
+
+
+<link href="https://vgmdb.net/album/15240" rel="canonical" />
+
+
+<meta name="keywords" content="La Tale, PC, album, ost, soundtrack, tracklist, scans, covers, vgm, translation" />
+<meta name="description" content="Commercial (Digital) published by Actoz Soft on Oct 2008 containing original soundtrack from La Tale" />
+<meta property="og:title" content="La Tale - VGMdb" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://medium-media.vgm.io/albums/04/15240/15240-1252083788.jpg" />
+<meta property="og:url" content="https://vgmdb.net/album/15240" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@vgmdb" />
+<meta name="twitter:title" content="La Tale - VGMdb" />
+<meta name="twitter:description" content="Commercial (Digital) published by Actoz Soft on Oct 2008 containing original soundtrack from La Tale" />
+<meta name="twitter:image" content="https://medium-media.vgm.io/albums/04/15240/15240-1252083788.jpg" />
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="VGMdb" />
+
+
+<!-- CSS Stylesheet -->
+<style type="text/css" id="vbulletin_css">
+/**
+* vBulletin 3.8.11 CSS
+* Style: 'Default Style'; Style ID: 1
+*/
+@import url("/forums/clientscript/vbulletin_css/style-5593b98d-00001.css");
+</style>
+<link rel="stylesheet" type="text/css" href="/forums/clientscript/vbulletin_important.css?v=3811" />
+
+
+<link rel="stylesheet" type="text/css" href="/db/vgmdb.css?20220131" />
+<link rel="stylesheet" type="text/css" href="/db/css/vgmdb-colorcode-title.css?20190227" id="colorcode" />
+<link rel="stylesheet" type="text/css" href="/db/jquery.autocomplete.css?20091023" />
+<link rel="stylesheet" type="text/css" href="/db/jquery.jcarousel.css?20091124" />
+<link rel="stylesheet" type="text/css" href="/db/highslide.css?080623" />
+<!-- / CSS Stylesheet -->
+
+<script type="text/javascript" src="/db/clientscript/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="/db/clientscript/connection-min.js"></script>
+<script type="text/javascript">
+<!--
+var SESSIONURL = "";
+var SECURITYTOKEN = "guest";
+var IMGDIR_MISC = "/db/images/misc";
+var vb_disable_ajax = parseInt("1", 10);
+// -->
+</script>
+<script type="text/javascript" src="/forums/clientscript/vbulletin_global.js?v=3811"></script>
+<script type="text/javascript" src="/forums/clientscript/vbulletin_menu.js?v=3811"></script>
+<link rel="alternate" type="application/rss+xml" title="VGMdb Forums RSS Feed" href="/forums/external.php?type=RSS2" />
+
+<script type="text/javascript" src="/db/clientscript/jquery-1.4.min.js"></script>
+<script type="text/javascript" src="/db/clientscript/jquery.compressed.js"></script>
+<script type="text/javascript" src="/db/clientscript/jquery.tristate.js?20100420"></script>
+<script type="text/javascript" src="/db/clientscript/highslide.packed.js?080620"></script>
+<script type="text/javascript" src="/db/clientscript/vgmdb_global.js?220525"></script>
+<link rel="search" type="application/opensearchdescription+xml" title="Search VGMdb" href="/db/search.xml" />
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+<script language="javascript" type="text/javascript">
+$(document).ready(function() {
+	var ItemType = new Array;
+	ItemType["0"] = "Album";
+	ItemType["1"] = "Artist";
+	ItemType["2"] = "Organization";
+	hs.showCredits = false;
+	hs.allowMultipleInstances = false;
+	hs.graphicsDir = '/db/highslide/graphics/';
+	function formatItem(row) {
+		return "<span style='float: right; margin-left: 10px' class='tinyfont label'>" + ItemType[row[3]] + " #" + row[1] + "</span>" + row[0];
+	}
+	$('#navoptions a').click(function() {
+		if (!$('#pref_content form').length) {
+			$.ajax({
+				url: '/db/user.php?do=preferences',
+				beforeSend: function() {
+					$('#navoptions').css('visibility', 'hidden').parent('li').css('background', 'transparent url(/db/img/ajax_loader_small.gif) center center no-repeat');
+				},
+				success: function(data) { 
+					$('#navoptions').css('visibility', 'visible').parent('li').css('background', 'transparent url(/db/img/vgmdbsubnav2010.gif) -593px 0 no-repeat');
+					$('#pref_content').html(data.html);
+					$('#pref_content form label.tristate').tristate();
+					$('#pref_content form').ajaxForm({
+						beforeSubmit: function() {
+							$('#pref_content form input[type=submit]').css('visibility', 'hidden').parent('div').css('background', 'transparent url(/db/img/ajax_loader_small.gif) center center no-repeat');
+						},
+						success: function() {
+							$('#pref').slideUp('fast');
+							$('#pref_content form input[type=submit]').css('visibility', 'visible').parent('div').css('background', 'none');
+							$('#navoptions a').blur();
+						}
+					});
+					$('#pref').slideDown('fast');
+				},
+				dataType: 'json'
+			});
+		}
+		else {
+			if ($('#pref').is(':visible')) {
+				$('#pref').slideUp('fast');
+				$('#navoptions a').blur();
+			}
+			else $('#pref').slideDown('fast');
+		}
+		return false;
+	});
+	$("#simplesearch").autocomplete('/db/ajax-autocomplete.php', {
+		minChars: 3,
+		delay: 1000,
+		max: 150,
+		width: 500,
+		scrollHeight: 600,
+		selectFirst: false,
+		formatItem: formatItem
+	}).result(function(event, item) {
+		location.href = item[2];
+	});
+	$('label.tristate').tristate(); // 'sup IRA
+	
+});</script>
+<meta name="google-site-verification" content="3hoyGArPHzn4HMMeNfYCjhqM5Ci_675U7M7NxbiLJ1A" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4758350-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+  })();
+
+</script>
+<style>
+.alt1_dark {
+    background: #151F30;
+    color: #FFFFFF;
+}
+
+.alt2_dark {
+    background: #252B3F;
+    color: #FFFFFF;
+}
+span.link_doc { display: block; background: transparent url('/db/icons/album-cover.gif') 0 2px no-repeat; padding-left: 14px; margin-bottom: 4px; }
+</style>
+<!---->
+
+
+<style>tr.extracred { display: none; }</style>
+
+<script language="javascript" type="text/javascript">
+$(document).ready(function() {
+	$("input.button").click(function() { window.clickedButton = $(this); });
+	$("form").submit(function (e) { if (window.clickedButton != null && !window.clickedButton.hasClass("warnbutton")) { $("input.button:not(.warnbutton)").click(function() { return false; }); } });
+	$(".auto-collapse").each(function() {
+		if ($(this).height() >= 42) {
+			$(this).css('cursor', 'pointer').css('overflow', 'hidden');
+			if (!$(this).hasClass("auto-collapse-yellow")) {
+				$(this).children(":first").css('mask-image', 'linear-gradient(to bottom, black 20px, transparent 50px)');
+				$(this).children(":first").css('-webkit-mask-image', 'linear-gradient(to bottom, black 20px, transparent 50px)');
+			}
+			$(this).click(function(e) {
+				$(this).css('max-height', 'none').css('cursor', 'auto');
+				if (!$(this).hasClass("auto-collapse-yellow")) {
+					$(this).children(":first").css('mask-image', '').css('-webkit-mask-image', '');
+				}
+			});
+		}
+	});
+	$('textarea.resizable:not(.processed), select.resizable:not(.processed), div.resizable:not(.processed)').TextAreaResizer();
+	
+	
+	$('#tlnav li a').click(function() {
+		$('#tlnav li').removeClass('active');
+		$(this).parent('li').addClass('active');
+		$('span.tl').hide();
+		$('#' + $(this).attr('rel')).show();
+		return false;
+	});
+	
+	
+	
+	$('table.role tr.rolebit').mouseover(function() { $(this).addClass("over"); });
+	$('table.role tr.rolebit').mouseout(function() { $(this).removeClass("over"); });
+	
+	
+	
+	
+	$(document).ready(function() {
+		$('.collapsible_section').click(function() {
+			var src = $(this).find('img').attr('src');
+			if (src.indexOf('close') > 0) {
+				$(this).find('img').attr('src', src.replace('close', 'open'));
+				$('#' + $(this).attr('rel')).hide('fast');
+			} else {
+				$(this).find('img').attr('src', src.replace('open', 'close'));
+				$('#' + $(this).attr('rel')).show('fast');
+			}
+			return false;
+		});
+	});
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	// shamelessly ripped from Digg
+	var cheatCode = '';
+	var maxCode = 40;
+	$(document).keydown(function(key) {
+		if (cheatCode.length < maxCode) {
+			var k = (key.keyCode == 0) ? key.charCode : key.keyCode;
+			cheatCode = cheatCode + String(k) + ' ';
+			switch (cheatCode) {
+				case '38 40 37 39 65 13 ':
+				window.location='/album/2072';
+				break;
+				case '38 38 40 40 37 39 37 39 66 65 13 ':
+				window.location='/album/3778';
+				break;
+				case '73 68 68 81 68 ':
+				window.location='/album/2950';
+				break;
+			}
+		}
+	});
+});
+</script>
+</head>
+<body style="padding: 0; margin: 0">
+<a name="top"></a>
+<div class="page" style="background-color: #1B273D; height: 100px; width: 100%;">
+<div style="float: right; margin-top: 10px; margin-right: 10px;">
+	<ul class="pipelist tinyfont">
+	
+	<li class="smallfont first-child"><span id="navlogin"><a href="#">Login</a><script type="text/javascript"> vBmenu.register('navlogin'); </script></span></li>
+	<li class="smallfont"><a title="Register a new account" href="/forums/register.php">Register</a></li>
+	
+	</ul>
+</div>
+<div style="white-space: nowrap;">
+<!-- logo -->
+<div style="height: 100px; float: left;"><a href="/"><img src="/db/img/vgmdblogo.png" alt="VGMdb" style="padding: 10px; width: 250px; height: 80px; border: 0" /></a></div>
+<!-- /logo -->
+<!-- top nav -->
+<div style="height: 100px; float: left; position: relative; margin-left: 1px;">
+<ul id="topnav">
+	<li id="nav_album"><a title="Official Albums, Enclosures, Doujins" href="/db/albums.php">Albums</a><a class="buttonSubmit" href="/album/new" title="Submit a new album"><img src="/db/img/button-add-big.png" alt="" /></a></li>
+	<li id="nav_artist"><a title="Composers, Arrangers, Lyricists, Performers" href="/db/artists.php">Artists</a><a class="buttonSubmit" href="/db/artists-submit.php" title="Submit a new artist"><img src="/db/img/button-add-big.png" alt="" /></a></li>
+	<!-- <li id="nav_track"><a title="Instrumentals, Vocals, Sound Effects, Voice Dramas" href="#">Tracks</a></li> -->
+	<li id="nav_label"><a title="Music Labels, Publishers, Organizations and Groups" href="/db/org.php">Organizations</a><a class="buttonSubmit" href="/db/org-submit.php" title="Submit a new publisher"><img src="/db/img/button-add-big.png" alt="" /></a></li>
+	<li id="nav_product"><a title="Games, Video, Radio/Drama Programs, Print Publications" href="/db/product.php">Products</a><a class="buttonSubmit" href="/db/product-submit.php" title="Submit a new product"><img src="/db/img/button-add-big.png" alt="" /></a></li>
+	<li id="nav_event"><a title="Conventions, Gatherings and Shows" href="/db/events.php">Events</a><a class="buttonSubmit" href="/db/event-submit.php" title="Submit a new event"><img src="/db/img/button-add-big.png" alt="" /></a></li>
+	
+	<!--li id="nav_podcast"><a title="VGM Decibel, our bi-monthly podcast" href="/cast">Podcast</a></li-->
+</ul>
+</div>
+<!-- / top nav -->
+</div>
+</div>
+<div class="label" style="clear: both; width: 100%; background-color: #2F364F; font-family: Arial">
+<ul id="subnav">
+	<li id="nav_search" style="width: 250px">
+		<form name="navsearch" action="/search" method="get">
+			<div>
+                 <input type="text" class="bginput smallfont ac_input ac_default" name="q" id="simplesearch" maxlength="150" style="width: 160px;" enterkeyhint="go" />
+                 <select name="type" style="width: 70px;" >
+                    <option value="" >all</option>
+                    <option value="album" >albums</option>
+                    <option value="artist" >artists</option>
+                    <option value="org" >organizations</option>
+                    <option value="product" >products</option>
+                </select>
+            </div>
+		</form>
+	</li>
+	<li id="nav_advsearch"><a title="More search options" href="/search">Advanced Search</a></li>
+	<li id="nav_update"><a title="Latest submissions and edits" href="/db/recent.php">Updates</a></li>
+	<li id="nav_calendar"><a title="Release schedules" href="/db/calendar.php?year=2023&month=9">Calendar</a></li>
+	<li id="nav_forum"><a title="Community discussions" href="/forums/">Forums</a></li>
+	<li id="nav_market"><a title="Trade with other members" href="/db/marketplace.php?do=view">Marketplace</a></li>
+	<!--li id="nav_users"><a title="User collections" href="/db/collection.php">Users</a></li-->
+	<li id="nav_chat"><a title="Real-time chat" rel="nofollow" href="https://discord.gg/VXgKQUa" target="vgmdbchat">Discord</a></li>
+	
+	<li id="nav_submit"><a title="Submit an album" href="/album/new">Submit Album</a></li>
+	<li id="nav_customize"><span id="navoptions"><a title="Edit your preferences" href="#">Customize</a></span></li>
+</ul>
+</div>
+
+
+	<!-- login form -->
+	<div class="vbmenu_popup" id="navlogin_menu" style="display:none;">
+	<table cellpadding="4" cellspacing="1" border="0"><tr><td style="background: #BBC7CE;">
+	<form action="/forums/login.php?do=login" method="post" onsubmit="md5hash(vb_login_password, vb_login_md5password, vb_login_md5password_utf, 0)">
+	<script type="text/javascript" src="/forums/clientscript/vbulletin_md5.js?v=3811"></script>
+	<table cellpadding="0" cellspacing="3" border="0">
+	<tr>
+		<td class="smallfont"><label for="navbar_username">User Name</label></td>
+		<td><input type="text" class="bginput" style="font-size: 11px" name="vb_login_username" id="navbar_username" size="10" accesskey="u" tabindex="101" value="User Name" onfocus="if (this.value == 'User Name') this.value = '';" /></td>
+		<td class="smallfont" colspan="2" nowrap="nowrap"><label for="cb_cookieuser_navbar"><input type="checkbox" name="cookieuser" value="1" tabindex="103" id="cb_cookieuser_navbar" accesskey="c" />Remember</label></td>
+	</tr><tr>
+		<td class="smallfont"><label for="navbar_password">Password</label></td>
+		<td><input type="password" class="bginput" style="font-size: 11px" name="vb_login_password" id="navbar_password" size="10" tabindex="102" /></td>
+		<td><input type="submit" class="button" value="Log in" tabindex="104" title="Enter your username and password in the boxes provided to login, or click the 'register' button to create a profile for yourself." accesskey="s" /></td>
+	</tr>
+	</table>
+	<input type="hidden" name="s" value="" />
+	<input type="hidden" name="securitytoken" value="guest" />
+	<input type="hidden" name="do" value="login" />		
+	<input type="hidden" name="vb_login_md5password" />
+	<input type="hidden" name="vb_login_md5password_utf" />
+	</form>
+	</td></tr></table>
+	</div>
+	<!-- / login form -->
+
+
+<!-- content table -->
+<div class="page" style="padding:20px 20px 0 20px">
+
+<div id="pref" style="width: 100%; background-color:#1B273D; margin-bottom: 20px; display: none">
+	<b class="rtop"><b></b></b>
+	<div id="pref_content"></div>
+	<b class="rbot"><b></b></b>
+</div>
+
+
+
+<!-- main page contents -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" align="left"><tr><td width="100%" style="background-color: #1B273D;" valign="top">
+	<b class="rtop"><b></b></b>
+
+
+	<div id="innermain" style="padding: 6px 10px 0px 10px">
+		<span style="float:right;" class="label smallfont"><a href="/db/albums-discuss.php?id=15240">Discuss</a> <span class="time">(41)</span> | <span id="albumtools"><a href="#">Edit</a><script type="text/javascript"> vBmenu.register('albumtools'); </script></span></span>
+
+		<h1><span class="albumtitle" lang="en" style="display:inline">La Tale</span><span class="albumtitle" lang="ja" style="display:none"><em> / </em>La Tale</span><span class="albumtitle" lang="ja-Latn" style="display:none"><em> / </em>La Tale</span> </h1>
+
+		<div style="padding-left: 10px; padding-right: 10px; padding-bottom: 6px; font-size: 9pt; color: #788990;"><span class="albumtitle" lang="en" style="display:inline"></span><span class="albumtitle" lang="ja" style="display:none">La Tale<br /></span><span class="albumtitle" lang="ja-Latn" style="display:none">La Tale<br /></span></div>
+		<div style="padding-left: 10px; padding-right: 10px; margin-top: 10px;"><div id="leftfloat" style="float: left; width: 250px; height: 250px; padding-top: 4px; padding-bottom: 4px;">
+<div style="width: 250px; height: 250px; overflow: hidden">
+<table cellpadding="0" cellspacing="0" border="0" align="left" width="250">
+<tr><td align="center" valign="middle" style="height: 250px; width:250px">
+<div id="coverart" style="background-image: url('https://medium-media.vgm.io/albums/04/15240/15240-1252083788.jpg')" title="N/A"></div>
+</td></tr></table></div></div>
+
+<div id="rightfloat" style="margin-left: 270px;">
+<div style="background-color: #2F364F;">
+<b class="rtop"><b></b></b>
+
+<div style="max-height:300px; overflow:auto;">
+<table id="album_infobit_large" cellpadding="1" cellspacing="1">
+<tr><td nowrap="nowrap"><span class="label"><b>Catalog Number</b></span></td>
+<td width="100%">N/A 
+
+
+</td></tr>
+
+
+
+<tr><td nowrap="nowrap"><span class="label"><b>Release Date</b></span></td>
+<td><a title="View albums released on Oct 2008" href="/db/calendar.php?year=2008&month=10#unknown">Oct 2008</a> </td></tr>
+
+<tr><td nowrap="nowrap"><span class="label"><b>Publish Format</b></span></td>
+<td>Commercial  </td></tr>
+
+<tr><td nowrap="nowrap"><span class="label"><b>Release Price</b></span></td>
+<td>Free </td></tr>
+
+<tr><td nowrap="nowrap"><span class="label"><b>Media Format</b></span></td>
+<td>Digital</td></tr>
+
+<tr><td nowrap="nowrap"><span class="label"><b>Classification</b></span></td>
+<td>Original Soundtrack </td></tr>
+
+
+    <tr class="maincred"><td nowrap="nowrap"><span class="label"><b>Organizations</b></span></td><td>Actoz Soft 
+</td><tr>
+
+
+
+
+
+</table>
+</div>
+
+<div style="clear: left; line-height: 0; height: 0; overflow: hidden; visibility: hidden"></div>
+<b class="rbot"><b></b></b>
+</div></div>
+
+
+
+
+
+
+
+</div>
+		<br style="clear: both" />
+
+
+
+<div style="padding-left: 10px; padding-right: 10px"><h3><span style="float:left">Credits <a href="#" class="collapsible_section" rel="collapse_credits"><img src="/db/img/collapse_close.png" /></a></span></h3><span style="clear:both;display:block;"></span>
+<div style="background-color: #2F364F;" id="collapse_credits">
+<b class="rtop"><b></b></b>
+<div style="max-height:1000px; padding: 6px 10px 10px 6px; overflow:auto;">
+<table id="album_infobit_large" style="height:auto" cellpadding="1" cellspacing="1">
+<tbody>
+<tr class="maincred"><td nowrap="nowrap"><span class="label"><b><span title="Composer" class="artistname" lang="en" style="display:inline">Composer</span><span style="display:none"><em> / </em></span><span title="Composer" class="artistname" lang="ja" style="display:none">Composer</span></b></span></td><td width="100%"><a href="/artist/11598">be</a>, DiNY, <a href="/artist/3941">Electronic Boutique</a>, <a href="/artist/36193">ESTi</a>, iNID, Jo, <a href="/artist/5301">M2U</a>, <a href="/artist/5302">NieN</a>, <a href="/artist/12530"><span title="シルエティ" class="artistname" lang="en" style="display:inline">Silhouetti</span><span style="display:none"><em> / </em></span><span title="Silhouetti" class="artistname" lang="ja" style="display:none">シルエティ</span></a>, ASTRO MAN, D.Z</td></tr><tr class="maincred"><td nowrap="nowrap"><span class="label"><b><span title="Arranger" class="artistname" lang="en" style="display:inline">Arranger</span><span style="display:none"><em> / </em></span><span title="Arranger" class="artistname" lang="ja" style="display:none">Arranger</span></b></span></td><td width="100%">DINY, Jo</td></tr>
+</tbody>
+</table>
+</div>
+<b class="rbot"><b></b></b>
+</div></div><br/>
+
+		<div style="padding-left: 10px; padding-right: 10px">
+		
+			<div><h3 style="float: left">Tracklist <a href="#" class="collapsible_section" rel="tracklist"><img src="/db/img/collapse_close.png" /></a></h3>
+			<ul id="tlnav" class="tabnav" style="margin-left: 10px"><li class="active"><a class='smallfont' rel='tl168509' href='#'>Korean + English</a></li></ul>
+			</div>
+
+			<div style="background-color: #2F364F; clear: both">
+			<b class="rtop"><b></b></b>
+			<div style="padding: 6px 10px 10px 10px" id="tracklist"><span class="tl" id="tl168509">
+	<!-- / tracklist tools menu -->
+<span style="font-size:8pt"><b>Disc 1</b></span>
+<br /><br />
+<table cellpadding="1" cellspacing="0" border="0" class="role">
+<tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">01</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[메인테마] MAY be happy</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:22</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">02</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[메인테마] MAY be happy (arranged ver)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:45</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">03</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[초보자 수련장] 용기있는 한걸음</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:10</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">04</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[벨로스] Belos</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:12</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">05</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[상점] Where am I</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:08</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">06</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[산림지대] Viridianscape</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:26</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">07</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[산림 탄광] Coal mine</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:17</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">08</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[플루톤 신전] Smile of Sunshine</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:01</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">09</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[상점] Where am I (arranged ver)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:05</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">10</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[엘리아스] Elias (과거)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:03</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">11</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[엘리아스 왕궁] Elias palace</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:33</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">12</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[지하수로] Gambling without Luck</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:34</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">13</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[이리스 테마] Iris</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:30</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">14</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[여행자의 휴식처] Gypsy's carriage</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:57</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">15</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[들판 지대] Green Green</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:19</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">16</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[붉은 수수밭] Green Green Blue Blue</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:52</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">17</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[OX퀴즈] OX QUIZ</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:31</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">18</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[산악지대] Shanghai Runner</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:08</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">19</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[던전] ESP Overload</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:39</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">20</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[설원] Snowfield</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:18</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">21</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[아르카디아] Earth Unlimited</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:22</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">22</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[용경] Wind from the Far East</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:55</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">23</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[벚나무 호숫가] AKAI ITO</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:41</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">24</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[아오이치] Dear.Chie</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:34</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">25</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[캐쉬샵] Dear. HyeJin</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:51</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">26</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[흑월성] momochrome~ SIRO KURO</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:36</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">27</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[산림지대] Viridianscape (arranged ver)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:55</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">28</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[사막지대] Save The Saboten Princess</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:34</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">29</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[어둠의 숲] Dark Forest</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:30</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">30</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[엘파] Elfa</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:07</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">31</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[프롤로그] Prologue Part.1</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:07</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">32</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[프롤로그] Prologue Part.2</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:04</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">33</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[메인테마] MAY be happy forever</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:23</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">34</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[오르카 해변] 마법의 7월</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:24</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">35</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[위로위로 나무] 목요일엔 치킨마요를</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:20</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">36</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[도트누리 스테이지 1] I Love PSG!!!</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:52</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">37</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[폐허가 된 베스/십육일의 달] 은빛날개를 달고</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:23</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">38</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[크투가 유적지] Wind from the Middle East</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:42</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">39</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[크투가 유적 지하] Monochromatic Life</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:05</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">40</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[베스] PeacefulPeaceful</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:24</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">41</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[정글지대] Welcome to the jungle</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:27</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">42</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[뷰티샵] Dear. HyeJin Again</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:19</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">43</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[봉춘식 테마] Theme of Chunsik</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:21</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">44</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[춘식 랜드] 소년은 별을 꿈꾸는가?</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:06</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">45</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[유령 해적선] Monster in the Mirror</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:08</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">46</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[올빼미의 성] 올빼미의 성</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:14</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">47</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[베스 여객선] Lonely Sailing</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:56</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">48</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[고목나무 숲] 少女心(소녀심)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:17</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">49</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[봉골레 열차] Western GunRun</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:22</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">50</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[레비 아렌스 테마] Revi Arens</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:39</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">51</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[수정탄광] Crystal Cave</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:16</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">52</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[사우르스 필드] Saurus Field</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:39</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">53</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[릴리펏 도시] Liliput</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:44</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">54</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[릴리펏 필드] Liliput Field</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:27</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">55</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[베히모스의 뱃속] Behemoth</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:14</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">56</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[에그에그 성] Never Die</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:23</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">57</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[쿠키 가든] Cookie Garden</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:19</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">58</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[스톤톤 마을] Gypsy's Carriage Jo.</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:08</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">59</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[나 무웬 테마] Na Moowen</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:55</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">60</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[인스턴스 던전 B] Blue Emotion</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:00</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">61</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[인스턴스 던전 A] Bird Against The Storm</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:24</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">62</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[피라미드 유적] Pyramid Ruins</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:35</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">63</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[포우저택] Poe Mansion</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:23</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">64</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[타운포탈] Townportal</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:23</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">65</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[가티아 수 테마] Gattia Su</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:03</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">66</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[반 기우 테마] Ban Gioo</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:33</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">67</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[흑월공주 테마] Black Moon Princess</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:05</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">68</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[카즈노 나스 테마] Kazno Nas</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:00</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">69</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[식어버린 심장] Alone in the city</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:28</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">70</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[샹그리라] My Heart is 123 bpm</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:41</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">71</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[온천 가족탕] Vivo Reprise</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:17</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">72</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[전직 센터] Tempest</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:12</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">73</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[아비오 클럽] Dance Away</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:30</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">74</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[심연의 유적] Don't Freeze!</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:22</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">75</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[아틀란티스] 돌고래의 꿈</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:14</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">76</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[메인테마] MAY be happy (winter ver)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:42</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">77</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[키마이라 연구소] chimaera Lab</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:18</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">78</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[춘식랜드 영주관] Consulate of Chunsik Bong</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:04</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">79</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[아쿠아리움] Aquarium</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:21</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">80</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[비프로스트] Bifrost</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:22</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">81</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[빅 애플] Happy Day Walk Around</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:12</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">82</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[초엔 팜 테마] Choen Pam</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:51</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">83</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[미드가르드] 보이지 않는 Utopia</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:37</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">84</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[두터비 윗골] Toad island #1 喜</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:05</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">85</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[두터비 산] Toad island #2 怒</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:53</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">86</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[두터비 동굴] Toad island #3 哀</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:20</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">87</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[두터비 숲] Toad island #4 樂</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:17</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">88</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[두터비 해변] Toad island #5 愛</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:47</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">89</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[강철도시] Steel City</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:05</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">90</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[크리스마스 이벤트] A Winter Night's Dream</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:12</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">91</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[파쇠계곡 입구] Showdown</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:35</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">92</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[파쇠계곡 출구] Chaos! Break! Manga!</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:22</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">93</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[팩토리] Factory8186</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:03</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">94</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[요정수] Fairy Tale</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:19</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">95</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[꽃의 계곡] Flower Field</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:01</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">96</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[베이커 거리] Baker Street</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:08</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">97</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[화이트채플] White Chapel</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:14</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">98</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[천문] 天門</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:22</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">99</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[금란운계] Like a Screw Bar</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:14</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">100</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[인스턴스 던전 보스] Super Monster Adventure</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:04</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">101</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[사이암 테마] Siam</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:52</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">102</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[게네페] Genepe</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:23</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">103</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[게네페] Genepe Orgel</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:34</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">104</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[헬즈도어] Big Brother</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:03</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">105</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[수경농장] Always be myself</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:02</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">106</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[행거] Hanger</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:14</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">107</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[디-라보] Di Labo</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:16</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">108</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[콜로세움] Colosseum</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:09</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">109</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[제나디아 중앙구역] Xenadia</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:47</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">110</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[제나디아 지상구역] Beyond the Forest</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:35</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">111</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[제나디아 신전구역] Lost Temple</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:27</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">112</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[제나디아 폐허지역] Hanging Garden</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:15</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">113</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[제나디아 성소] Change Class</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:45</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">114</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[도트누리 로비] OX Quiz</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:56</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">115</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[도트누리 Lv.2] 마법의 7월</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:03</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">116</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[도트누리 Lv.3] Welcome to the Jungle</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:10</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">117</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[도트누리 Lv.4] Dear.HyeJin</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:09</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">118</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[도트누리 Lv.5] 목요일엔 치킨마요를</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:05</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">119</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[도트누리 Lv.6] Where am I</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:58</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">120</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[도트누리 Lv.7] Coalmine</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:24</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">121</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[쭈꾸미 신전] ancient ruins</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:04</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">122</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[길드연합] 음유시인이야기</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:36</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">123</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[엘아노르 평원] 엘아노르의 정글</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:05</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">124</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[엘아노르 평원 동부] 제국군 숙영지</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:47</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">125</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[신비한 숲] 신비의 숲</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:47</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">126</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[비공정 추락지] 제국군의 역습</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:03</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">127</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[엘아노르 산악지대] 천공의 섬</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:28</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">128</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[잊혀진 평원] 잊혀진 평원</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:28</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">129</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[잊혀진 화원] Ruin</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:16</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">130</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[데고스/이프리트] Hot Blood</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:04</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">131</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[벨파 도서관] 벨파 도서관</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:58</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">132</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[호랑사] 호랑사</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:34</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">133</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[호선레이레이] Asian Rhapsody</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:48</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">134</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[무지개 낚시터] Rainbow</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:04</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">135</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[별가루 평원/은빛가지저택 입구] Astro Rain</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:16</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">136</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[은빛가지저택] 은빛가지저택</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:46</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">137</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[별의 요람] 별의 요람</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:01</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">138</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[루세리아/테세우스] Flame</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:55</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">139</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[엘리아스] Elias (리뉴얼)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:52</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">140</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[메인테마] Epiclog</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:44</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">141</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[통곡의 해안] be echoed</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:05</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">142</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[붕괴의 탑] Tower of GOD</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:39</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">143</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[붕괴의 탑 정상] 요정의 노래</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:28</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">144</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[오싹고을] Oriental Dream</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:00</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">145</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[하늘아리호] Step One</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:39</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">146</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[표류도시] be ruined</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:05</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">147</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[아니스 하트 테마] fall in love</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:23</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">148</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[아우르겔미르 연구소] DB</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:48</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">149</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[표류도시 외곽] Lost Temple</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:50</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">150</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[엘메이] Fantasy of LaTale</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:45</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">151</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[GM 이벤트] Dear. Orange arrange</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:10</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">152</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[스태리 캣츠] Noir</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:55</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">153</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[대난투] Sunshine bar</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:10</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">154</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[캐쉬샵] Cat in France (리뉴얼)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:41</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">155</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[격투장] Perfect Man (리뉴얼)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:50</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">156</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[메인테마] Memories remember U</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:27</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">157</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[바나헤임] Moon rabbit</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:13</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">158</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[꽃의 길/꿈의 길/달의 길] Nightmare</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:00</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">159</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[환영 보스전] End of Monster Screaming</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:02</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">160</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[위그드라실] Timeless</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:51</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">161</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[지엔디아 공원 로비] Rush off</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:47</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">162</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[지엔디아 공원 식물원] Analog Emotion</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:37</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">163</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[지엔디아 공원 사바나] Savanna</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:31</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">164</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[지엔디아 공원 하얀 평원] White Forest</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:18</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">165</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[지엔디아 공원 모험가의 전당] 낙뢰천</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:25</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">166</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[루미너스 시티-낮] Good Day</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:36</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">167</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[루미너스 시티-밤] Night Wish</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:04</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">168</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[밤의 학교] Mystery School</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:43</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">169</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[지엔디아 공원 창고] Daily life Dwarf</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:48</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">170</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[지엔디아 공원 화산지대] Volcano</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:30</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">171</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[산호의 숲] Coral Forest</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:48</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">172</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[지하동굴] illusion hole</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:51</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">173</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[타임어택] Drive in</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:50</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">174</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[오스큐라스 임시 주둔지] elegy</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:46</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">175</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[폭풍의 감시자 폐허] Galaxy</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:19</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">176</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[석영동굴] Lost in the darkness</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:41</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">177</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[비취수림] Sweet Dream</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:39</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">178</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[붉은 수수밭_심야] Echoes</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:07</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">179</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[용제성] Mystic</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:40</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">180</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[월화원] Night flower</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:22</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">181</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[용황전] KingStar</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:45</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">182</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[용황전_보스전투] Dragon Castle</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:47</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">183</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[미지의 도서관] Abracadabra</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:57</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">184</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[숨겨진 동굴] Crossroad</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:52</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">185</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[메인테마] Freestyle rush</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:31</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">186</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스룸] Hidden track</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:48</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">187</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[버섯의 숲] Mushroom Palace</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:33</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">188</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[파괴된 성] 기억의 파편</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:43</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">189</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[드룰리지] 숲의 향기</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:45</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">190</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[오로라의 숲] 오로라의 숲 BGM</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:28</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">191</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[오로라의 정원] Flower Place</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:33</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">192</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[리베라 마을] 위대한 항해</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:49</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">193</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[리베라 시청] Crunch</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:30</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">194</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[메린섬] 아일랜드</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:26</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">195</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[마석 실험실] Go-Ahead</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:29</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">196</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스방] Last Key</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:31</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">197</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[10주년 이벤트] Shining Star</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:31</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">198</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[악마의 산] 얼어붙은 기억</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:52</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">199</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[악마의 협곡] Evil Greed</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:35</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">200</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[신비의 전당] MAGICAL VIOLET</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:27</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">201</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[초코가든] Choco garden</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:30</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">202</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[탈환군 임시 주둔지] Blossom of snow</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:43</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">203</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[세레스의 신전 길목] Winter storm</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:43</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">204</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[세레스의 신전 내부] I·re·ne</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:44</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">205</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[성스러운 회당] War Goddess</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:40</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">206</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[아키시티] Ackee city</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:22</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">207</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[뒤틀린 세계수] The tree of life</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:42</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">208</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스전] Second Gear</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:19</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">209</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[드워프 비공정] Hammer of dwarf</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:15</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">210</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[쥬드 왕국 수도] Ancient capital</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:42</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">211</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[태양신의 지하 제단] Berserk</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:15</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">212</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[태양의 궁전] Sol palace</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:09</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">213</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[국경지대] Solar village</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:27</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">214</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스전]Deathtiny</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:45</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">215</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[석양의 숲] Evening sun</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:14</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">216</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[트레져 케이브] Treasure hunter</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:09</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">217</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[트레져 비치] summer watch</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:27</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">218</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[루맨] Tower of lumen</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:15</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">219</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보석나무 숲] Jewel forest</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:37</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">220</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[폭포나무숲] waterfall forest</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:19</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">221</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[화이트콜] Crystal of gray</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:18</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">222</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스룸] Heavy heart</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:22</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">223</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[아이스크림 정원] Chocolate kingdom</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:11</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">224</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[인형의 거리] Dolls house</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:14</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">225</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[춘식랜드 기념관] Circus</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:05</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">226</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[그림자의 책] Silhouette</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:14</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">227</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[루맨 연합 본부] 한걸음</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:28</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">228</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스룸] Dragon Fear</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:22</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">229</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[환영의 독안개 늪지] Poison</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:17</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">230</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[이벤트 맵] the ocean</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:38</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">231</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[수련의 숲] 가시겨울</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:15</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">232</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[부유섬] Float Island</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:32</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">233</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스룸] Shining strom</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">0:57</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">234</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[코랄시티] 인어의꿈</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:20</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">235</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[산호의 노래] 산호의 노래</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:28</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">236</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[트윙키브] ocean blue</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:31</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">237</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[추억의 벨로스] Memories</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:33</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">238</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[불타는 도시] Destroy</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:46</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">239</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[얼어붙은 세계] Frozen</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:35</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">240</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[혼돈의 협곡] Chaotic Signal</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:41</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">241</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스룸] Howling</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:35</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">242</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[엘리아스] Elias (Piano.ver)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:01</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">243</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스전] Hot Blood (Piano.ver)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:31</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">244</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[별가루 평원] Astro rain (Piano.ver)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:07</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">245</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[아말룬사막] 신들의 도시</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:40</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">246</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[라의 성곽] the Castle of sun</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:31</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">247</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[안식의 홀] 황금정원</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:16</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">248</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스전] Theomachy</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:37</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">249</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[타르타로스] Tartarus</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:03</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">250</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스전] the hell</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:25</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">251</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[지하공사장] underground site</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:45</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">252</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[나락의방] 수라도</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:29</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">253</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[이벤트] hands up!</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:44</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">254</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[초인기념관] memorial hall</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:39</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">255</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[괴물나무산] lost woodland</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:47</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">256</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[괴물나무산(밤)] night woodland</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:18</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">257</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[전사들의 쉼터] Rest</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:49</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">258</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스전] metallic heart</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:33</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">259</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[신의 나무 라피어] Tree of goddess</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:40</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">260</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[아드리카] 아드리카의 노래</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:43</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">261</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[용의 계곡] Valley of dragon</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:58</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">262</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[칼리] fairy magic</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:44</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">263</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스전] Shield</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:31</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">264</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[이벤트] neon sign</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:35</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">265</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[벨로스] Belos (Piano.ver)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:30</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">266</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[아드리카] 아드리카의 노래 (Piano.ver)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:07</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">267</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[전사들의 쉼터] Rest (Piano.ver)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:06</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">268</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[제레니스 언덕] 마법학원</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:20</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">269</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[마법학원 수련관] Magical space</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:30</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">270</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[마법학원 본관] Magic Circle hall</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:39</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">271</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스전] blaze out</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:46</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">272</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[잃어버린 도시] Time of the lost star</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:21</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">273</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[수상한 연구소] LAB</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:33</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">274</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[에스닐] Lullaby</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:31</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">275</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[모로스] Moros</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:27</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">276</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[마력방공호] the darkness rises</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:58</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">277</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[꿈꾸는 오네이로] 꿈 꾸는 숲</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:34</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">278</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스전] fantasy star</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:19</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">279</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[이벤트] 칵테일</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:37</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">280</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[지스크영지] Dark Tower</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:57</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">281</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[허무의 별] voidstar</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:25</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">282</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[망각의 호수] oblivion</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:19</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">283</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스전] end of storm</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:03</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">284</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[이벤트] Pumpkin's Dream</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:19</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">285</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[환의 요람] Desperated land</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:20</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">286</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[로젠가르텐] kiss of death</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:44</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">287</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스전] Abyss gate</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:27</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">288</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[마르스] 쓸쓸한 선인장</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:20</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">289</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[포보스] Chaos</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:43</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">290</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[이벤트] 티티의 여우굴</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:20</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">291</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[길드혼돈] Confusion</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:32</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">292</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[길드중립] Neutral</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:17</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">293</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[길드질서] Sanctify</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:14</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">294</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[맹약의 성소] A Pledge from Deep holy</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:48</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">295</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[힐레] Demonic castle</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:19</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">296</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[성역 에이도스] Following your Passion</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:07</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">297</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스전] overwhelm</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:32</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">298</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[프리링 정원] 바람의향기(scent of the wind)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:41</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">299</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[프롤로그] Prologue zero</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:42</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">300</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[여신 이리스] luce sicut stellae(별처럼 밝게 빛나리)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:35</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">301</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[여신 이리스 전투ver] Sponte deae aeterno(신의 뜻에 따라, 영원히)</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:48</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">302</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[미지의 도서관] 마법의도서관</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:40</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">303</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[호원사] 호원사</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:46</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">304</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[오로라의 밤] 별빛소녀</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:40</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">305</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[레인보우 케이브] Dreaming Stone</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:17</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">306</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[악마의 평원] Devils plain</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:15</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">307</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[스카이 포트] Skyline</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:38</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">308</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[이벤트] 15th story</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:40</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">309</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[라테일 15주년 OST] 꿈의 문</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:56</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">310</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[라테일 15주년 OST] 꿈의 문 MR</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">3:56</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">311</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[고드름감옥] Cold Chain</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:13</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">312</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[메아리샘] Frozen Spring</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:45</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">313</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[데보라설원] Ice age</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:27</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">314</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[게르다] Winter bells</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:32</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">315</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스전] Freeze</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:34</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">316</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[크노소스] Ancient root</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:33</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">317</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[심장의 기억] Machine heart</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:27</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">318</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[아크로의 관] mind flow</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:37</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">319</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스전] Shock</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:40</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">320</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[아발론] Avalon</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:53</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">321</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[불타는 수레바퀴] 운명의 수레바퀴</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:50</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">322</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[바니타스] Eternity time</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:14</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">323</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[연옥 아즈라엘] Maze Of Wisdom</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:43</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">324</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스전] Shadow of darkness</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:45</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">325</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[벨로스의 풍차언덕] Wind tale</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:54</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">326</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[프뉴마] 달빛 아래의 보사노바</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:03</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">327</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[카이로스의 시간]</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:31</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">328</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[크로노스의 시간]</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:37</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">329</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스전] TIME TO TURN</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:48</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">330</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[미지의 숲] Sweet Fantasia</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:40</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">331</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[네레이스관문] 제국의 길</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:44</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">332</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[아이에섬] Daydream</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:36</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">333</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[심연의 거울] Unknown Dimension</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:37</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">334</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[에우가몬 극장] 몽환극장</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:44</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">335</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스전] Non-stop</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:46</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">336</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[인형의 집] 인형의집</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:23</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">337</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[오르카리움] Sunlight</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:36</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">338</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[라이티티아] 라이티티아</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:37</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">339</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[생명의 엔텔레케] 기억의조각</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:02</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">340</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[정령의 그루터기] fairy of tree</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:34</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">341</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스전] Dark wing</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:52</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">342</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[리프트라시르] 리프트라시르</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:31</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">343</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[수정달 숲] 보라달빛</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:33</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">344</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[사라진 별의 노래] Magical Stardust</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:32</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">345</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스전] Supernova</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:54</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">346</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[황혼의 성당] Twilight Cathedral</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">2:04</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">347</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[보스전] The Endless Requiem</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:45</span>
+
+</td>
+</tr><tr class="rolebit">
+<td style="border-bottom: 1px solid #3C405C" class="smallfont"><span class="label">348</span></td>
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" width="100%" colspan="2">
+
+[클라라의 오두막] Doll village</td>
+
+<td style="border-bottom: 1px solid #3C405C; padding-left: 6px" class="smallfont" align="right" nowrap="nowrap"><span class="time">1:40</span>
+
+</td>
+</tr>
+</table>
+<span style="float: right; margin: 1px;">
+  <span class="smallfont" style="color: #606978">Disc length</span>
+  <span class="time">673:08</span>
+</span>
+<br style="clear: both" />
+<h4 style="font-weight: normal; clear:both"><span class="label">
+
+&nbsp;</span>
+
+</h4></span>
+</div>
+			<b class="rbot"><b></b></b>
+			</div>
+
+		</div>
+
+<div style="padding: 20px 10px 10px 10px">
+<h3>Notes  <a href="#" class="collapsible_section" rel="collapse_notes"><img src="/db/img/collapse_close.png" /></a></h3>
+<div style="background-color: #2F364F;" id="collapse_notes">
+<b class="rtop"><b></b></b>
+<div style="padding: 6px 10px 10px 10px" class="smallfont" id="notes">Composition / Arrangement - ESTi (Park Jinbae / 박진배):<br />1, 3~4, 6, 8, 10, 12~13, 15~16, 19, 21, 23~24, 26, 28, 30, 33, 70, 72, 75, 83, 99<br /><br />Composition - ESTi (Park Jinbae / 박진배) / Arrangement - DINY (iNID / HyunTaek Yun / 윤현택):<br />2, 27, 76, 108, 116, 119<br /><br />Composition / Arrangement - DINY (iNID / HyunTaek Yun / 윤현택):<br />5, 7, 9, 11, 14, 17, 20, 25, 29, 31~32, 34~37, 39, 41~51, 53~54, 56, 59~60, 62~69, 71, 73~74, 77~80, 82, 84~90, 92~98, 100~107, 109, 111~115, 117~118, 120, 172<br /><br />Composition / Arrangement - be (Jooeun Hwang / 황주은):<br />18, 22, 38, 40<br /><br />Composition / Arrangement - Jo (Kyungnam Jo / 조경남):<br />52, 55, 57<br /><br />Composition - DINY (iNID / HyunTaek Yun / 윤현택) / Arrangement - Jo (Kyungnam Jo / 조경남):<br />58<br /><br />Composition / Arrangement - NieN (Goohyun Jung / 정구현):<br />61, 159<br /><br />Composition / Arrangement - M2U (Donghwi Shin / 신동휘):<br />81, 165<br /><br />Composition / Arrangement - Electronic Boutique (Jaehyun Shim / 심재현):<br />91, 110<br /><br />Composition / Arrangement - Astroman (ASTRO MAN / 이상화):<br />121~158, 160~164, 166~171, 173~191, 268~282, 284, 286, 288, 290~293, 295, 298~304, 307, 316, 318, 320~321, 327, 329, 334, 337~338, 340, 346~347<br /><br />Composition / Arrangement - TEAM D.Z:<br />192~241, 245~264<br /><br />Arrangement - Reynah:<br />242~244, 265~267<br /><br />Composition / Arrangement - MioK:<br />283, 285, 289, 294, 296<br /><br />Composition / Arrangement - HDY:<br />287, 313~314, 325~326, 331, 348<br /><br />Composition / Arrangement - 다람쥐:<br />297, 308, 315, 319, 324, 335<br /><br />Composition / Arrangement - modulus:<br />305~306, 311~312, 322, 328, 336, 339, 342~343<br /><br />LataleXDAZBEE:<br />309~310<br /><br />Composition / Arrangement - KYRNN:<br />317, 323, 330, 332~333, 341, 344~345</div>
+<b class="rbot"><b></b></b>
+</div>
+</div>
+
+	</div>
+
+</td>
+<td id="rightcolumn" rowspan="2" style="width: 270px; padding-left: 20px" valign="top">
+
+<div style="width: 250px; background-color: #1B273D">
+<b class="rtop"><b></b></b>
+<div style="padding: 6px 10px 0px 10px"><h3>Album Stats</h3></div>
+</div>
+<div style="width: 250px; background-color: #2F364F;">
+<div class="smallfont" style="padding: 10px 10px 6px 10px">
+
+
+
+<div style="margin-bottom: 10px;"><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Contained in</b> 11 collections<br />
+</div>
+
+<div style="margin-bottom: 10px;"><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Contained in</b> 0 wish lists<br />
+</div>
+
+<div style="margin-bottom: 10px;"><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Category</b><br />
+Game </div>
+
+<div style="margin-bottom: 10px;"><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Products represented</b><br />
+La Tale </div>
+
+<div><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Platforms represented</b><br />
+PC </div>
+
+<div id="preview"></div>
+
+</div>
+<b class="rbot"><b></b></b>
+</div>
+
+<br style="clear: left" />
+
+<div style="width: 250px; background-color: #1B273D">
+<b class="rtop"><b></b></b>
+<div style="padding: 6px 10px 0px 10px"><h3>Available at</h3></div>
+</div>
+<div style="width: 250px; background-color: #2F364F;">
+<div class="smallfont" style="padding: 10px 10px 6px 10px">
+<span style="display: block; clear: both; min-height: 16px; line-height: 16px; margin-bottom: 4px; padding-left: 20px; background: transparent url('/db/img/link-misc.png') top left no-repeat;" class="smallfont"><a style="" rel="nofollow" href="/redirect/10677/www.latale.com/media/music"  title="">latale.com (Official site)</a></span>
+</div>
+<b class="rbot"><b></b></b>
+</div>
+
+<br style="clear: left" />
+
+
+<div style="width: 250px; background-color: #1B273D">
+<b class="rtop"><b></b></b>
+<div style="padding: 6px 10px 0px 10px"><h3>Websites</h3></div>
+</div>
+<div style="width: 250px; background-color: #2F364F;">
+<div class="smallfont" style="padding: 10px 10px 0px 10px">
+<div style="margin-bottom: 10px"><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Official</b><br />
+<span class='link_doc'><a rel='nofollow' href='/redirect/5805/www.originalsoundversion.com/?p=597'>OSV's Review</a></span>
+<span class='link_doc'><a rel='nofollow' href='/redirect/5836/latale.happyoz.com/media/music.asp'>Preview music at latale.ogplanet.com</a></span>
+</div>
+<div style="margin-bottom: 10px"><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Reference</b><br />
+<span class='link_doc'><a rel='nofollow' href='/redirect/5808/www.originalsoundversion.com/?p=811'>DINY Interview on OSV</a></span>
+</div>
+
+
+
+</div>
+<b class="rbot"><b></b></b>
+</div>
+
+<br style="clear: left" />
+
+
+<div style="width: 250px; background-color: #1B273D">
+<b class="rtop"><b></b></b>
+<div style="padding: 6px 10px 0px 10px"><h3 style="float: left">Covers</h3>
+
+</div>
+<div style="width: 250px; background-color: #2F364F; clear:both"><div style="padding: 10px 10px 6px 10px">
+
+<div class="covertab" id="cover_gallery"><table border='0' width='100%'><tr>
+<td width='33%' align='center' valign='top'>
+
+<a id="thumb_58231" href="https://medium-media.vgm.io/albums/04/15240/15240-1252083788.jpg" class="highslide" rel="highslide"><div  style="background-color: #001122; background-image: url('https://thumb-media.vgm.io/albums/04/15240/15240-1252083788.jpg'); background-repeat: no-repeat; background-position: center center; border: solid 1px #40557E; height: 60px; width: 60px;">&nbsp;</div><h4 class="label" style="font-weight: normal">Front (M01)</h4></a>
+<div class='highslide-caption'><b>Front (M01)</b> <div class="smallfont">Submitted on Sep 4, 2009 <span class="time">09:03 AM</span></div><div class="smallfont"></div></div>
+
+</td><td width='33%' align='center' valign='top'>
+
+<a id="thumb_555730" href="https://medium-media.vgm.io/albums/04/15240/15240-8a0f9557a538.jpg" class="highslide" rel="highslide"><div  style="background-color: #001122; background-image: url('https://thumb-media.vgm.io/albums/04/15240/15240-8a0f9557a538.jpg'); background-repeat: no-repeat; background-position: center center; border: solid 1px #40557E; height: 60px; width: 60px;">&nbsp;</div><h4 class="label" style="font-weight: normal">Front (M285~290)</h4></a>
+<div class='highslide-caption'><b>Front (M285~290)</b> <div class="smallfont">Submitted on Nov 26, 2022 <span class="time">12:03 AM</span></div><div class="smallfont"></div></div>
+
+</td><td width='33%' align='center' valign='top'>
+
+<a id="thumb_555731" href="https://medium-media.vgm.io/albums/04/15240/15240-0bd56b6fbf02.jpg" class="highslide" rel="highslide"><div  style="background-color: #001122; background-image: url('https://thumb-media.vgm.io/albums/04/15240/15240-0bd56b6fbf02.jpg'); background-repeat: no-repeat; background-position: center center; border: solid 1px #40557E; height: 60px; width: 60px;">&nbsp;</div><h4 class="label" style="font-weight: normal">Front (M291~293)</h4></a>
+<div class='highslide-caption'><b>Front (M291~293)</b> <div class="smallfont">Submitted on Nov 26, 2022 <span class="time">12:04 AM</span></div><div class="smallfont"></div></div>
+
+</td></tr>
+<table border='0' width='100%'><tr>
+<td width='33%' align='center' valign='top'>
+
+<a id="thumb_555732" href="https://medium-media.vgm.io/albums/04/15240/15240-64c4ca2930c2.jpg" class="highslide" rel="highslide"><div  style="background-color: #001122; background-image: url('https://thumb-media.vgm.io/albums/04/15240/15240-64c4ca2930c2.jpg'); background-repeat: no-repeat; background-position: center center; border: solid 1px #40557E; height: 60px; width: 60px;">&nbsp;</div><h4 class="label" style="font-weight: normal">Front (M294~298)</h4></a>
+<div class='highslide-caption'><b>Front (M294~298)</b> <div class="smallfont">Submitted on Nov 26, 2022 <span class="time">12:04 AM</span></div><div class="smallfont"></div></div>
+
+</td><td width='33%' align='center' valign='top'>
+
+<a id="thumb_555733" href="https://medium-media.vgm.io/albums/04/15240/15240-188284ec8603.jpg" class="highslide" rel="highslide"><div  style="background-color: #001122; background-image: url('https://thumb-media.vgm.io/albums/04/15240/15240-188284ec8603.jpg'); background-repeat: no-repeat; background-position: center center; border: solid 1px #40557E; height: 60px; width: 60px;">&nbsp;</div><h4 class="label" style="font-weight: normal">Front (M299~308)</h4></a>
+<div class='highslide-caption'><b>Front (M299~308)</b> <div class="smallfont">Submitted on Nov 26, 2022 <span class="time">12:04 AM</span></div><div class="smallfont"></div></div>
+
+</td><td width='33%' align='center' valign='top'>
+
+<a id="thumb_555734" href="https://medium-media.vgm.io/albums/04/15240/15240-5632b55c0116.jpg" class="highslide" rel="highslide"><div  style="background-color: #001122; background-image: url('https://thumb-media.vgm.io/albums/04/15240/15240-5632b55c0116.jpg'); background-repeat: no-repeat; background-position: center center; border: solid 1px #40557E; height: 60px; width: 60px;">&nbsp;</div><h4 class="label" style="font-weight: normal">Front (M309~310)</h4></a>
+<div class='highslide-caption'><b>Front (M309~310)</b> <div class="smallfont">Submitted on Nov 26, 2022 <span class="time">12:04 AM</span></div><div class="smallfont"></div></div>
+
+</td></tr>
+<table border='0' width='100%'><tr>
+<td width='33%' align='center' valign='top'>
+
+<a id="thumb_555735" href="https://medium-media.vgm.io/albums/04/15240/15240-2f611ff5931b.jpg" class="highslide" rel="highslide"><div  style="background-color: #001122; background-image: url('https://thumb-media.vgm.io/albums/04/15240/15240-2f611ff5931b.jpg'); background-repeat: no-repeat; background-position: center center; border: solid 1px #40557E; height: 60px; width: 60px;">&nbsp;</div><h4 class="label" style="font-weight: normal">Front (M311~315)</h4></a>
+<div class='highslide-caption'><b>Front (M311~315)</b> <div class="smallfont">Submitted on Nov 26, 2022 <span class="time">12:05 AM</span></div><div class="smallfont"></div></div>
+
+</td><td width='33%' align='center' valign='top'>
+
+<a id="thumb_555736" href="https://medium-media.vgm.io/albums/04/15240/15240-1dc777f65045.png" class="highslide" rel="highslide"><div  style="background-color: #001122; background-image: url('https://thumb-media.vgm.io/albums/04/15240/15240-1dc777f65045.png'); background-repeat: no-repeat; background-position: center center; border: solid 1px #40557E; height: 60px; width: 60px;">&nbsp;</div><h4 class="label" style="font-weight: normal">Front (M316~319)</h4></a>
+<div class='highslide-caption'><b>Front (M316~319)</b> <div class="smallfont">Submitted on Nov 26, 2022 <span class="time">12:05 AM</span></div><div class="smallfont"></div></div>
+
+</td><td width='33%' align='center' valign='top'>
+
+<a id="thumb_555737" href="https://medium-media.vgm.io/albums/04/15240/15240-1ed875d2bb5d.png" class="highslide" rel="highslide"><div  style="background-color: #001122; background-image: url('https://thumb-media.vgm.io/albums/04/15240/15240-1ed875d2bb5d.png'); background-repeat: no-repeat; background-position: center center; border: solid 1px #40557E; height: 60px; width: 60px;">&nbsp;</div><h4 class="label" style="font-weight: normal">Front (M320~325)</h4></a>
+<div class='highslide-caption'><b>Front (M320~325)</b> <div class="smallfont">Submitted on Nov 26, 2022 <span class="time">12:05 AM</span></div><div class="smallfont"></div></div>
+
+</td></tr>
+<table border='0' width='100%'><tr>
+<td width='33%' align='center' valign='top'>
+
+<a id="thumb_556041" href="https://medium-media.vgm.io/albums/04/15240/15240-23b29cdf4dbf.png" class="highslide" rel="highslide"><div  style="background-color: #001122; background-image: url('https://thumb-media.vgm.io/albums/04/15240/15240-23b29cdf4dbf.png'); background-repeat: no-repeat; background-position: center center; border: solid 1px #40557E; height: 60px; width: 60px;">&nbsp;</div><h4 class="label" style="font-weight: normal">Front (M326~330)</h4></a>
+<div class='highslide-caption'><b>Front (M326~330)</b> <div class="smallfont">Submitted on Nov 27, 2022 <span class="time">03:22 PM</span></div><div class="smallfont"></div></div>
+
+</td><td width='33%' align='center' valign='top'>
+
+<a id="thumb_556042" href="https://medium-media.vgm.io/albums/04/15240/15240-280e5ac1d411.png" class="highslide" rel="highslide"><div  style="background-color: #001122; background-image: url('https://thumb-media.vgm.io/albums/04/15240/15240-280e5ac1d411.png'); background-repeat: no-repeat; background-position: center center; border: solid 1px #40557E; height: 60px; width: 60px;">&nbsp;</div><h4 class="label" style="font-weight: normal">Front (M331~336)</h4></a>
+<div class='highslide-caption'><b>Front (M331~336)</b> <div class="smallfont">Submitted on Nov 27, 2022 <span class="time">03:22 PM</span></div><div class="smallfont"></div></div>
+
+</td><td width='33%' align='center' valign='top'>
+
+<a id="thumb_556043" href="https://medium-media.vgm.io/albums/04/15240/15240-7e21dfe100a9.jpg" class="highslide" rel="highslide"><div  style="background-color: #001122; background-image: url('https://thumb-media.vgm.io/albums/04/15240/15240-7e21dfe100a9.jpg'); background-repeat: no-repeat; background-position: center center; border: solid 1px #40557E; height: 60px; width: 60px;">&nbsp;</div><h4 class="label" style="font-weight: normal">Front (M337~341)</h4></a>
+<div class='highslide-caption'><b>Front (M337~341)</b> <div class="smallfont">Submitted on Nov 27, 2022 <span class="time">03:22 PM</span></div><div class="smallfont"></div></div>
+
+</td></tr>
+<table border='0' width='100%'><tr>
+<td width='33%' align='center' valign='top'>
+
+<a id="thumb_560855" href="https://medium-media.vgm.io/albums/04/15240/15240-52cc60b8aefa.jpg" class="highslide" rel="highslide"><div  style="background-color: #001122; background-image: url('https://thumb-media.vgm.io/albums/04/15240/15240-52cc60b8aefa.jpg'); background-repeat: no-repeat; background-position: center center; border: solid 1px #40557E; height: 60px; width: 60px;">&nbsp;</div><h4 class="label" style="font-weight: normal">Front (M342~348)</h4></a>
+<div class='highslide-caption'><b>Front (M342~348)</b> <div class="smallfont">Submitted on Jan 9, 2023 <span class="time">01:08 PM</span></div><div class="smallfont"></div></div>
+
+</td><td width='33%'>&nbsp;</td><td width='33%'>&nbsp;</td></tr></table>
+</div>
+<div style="clear: left; line-height: 0; height: 0; overflow: hidden; visibility: hidden"></div>
+
+</div>
+<b class="rbot"><b></b></b>
+</div></div>
+
+<br style="clear: left" />
+
+<div style="width: 250px; background-color: #1B273D">
+<b class="rtop"><b></b></b>
+<div style="padding: 6px 10px 0px 10px"><h3>Related Albums</h3></div>
+</div>
+<div style="width: 250px; background-color: #2F364F;">
+
+
+<div style="padding: 10px 10px 6px 10px">
+<span class="label smallfont"><i>No related albums found.</i></span>
+</div>
+
+<b class="rbot"><b></b></b>
+</div>
+
+<br style="clear: left" />
+
+<div style="width: 250px; background-color: #2F364F;">
+<b class="rtop"><b></b></b>
+
+<div class="smallfont" style="padding: 6px 10px 6px 10px">
+<div style="margin-bottom: 10px;"><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Added</b><br />
+Sep 4, 2009 <span class="time">08:58 AM</span></div>
+
+<div style="margin-bottom: 10px;"><img src="/db/img/arrowbit.gif" alt="" border = "0" /> <b class="label">Edited</b><br />
+Jan 9, 2023 <span class="time">01:07 PM</span></div>
+
+<div style="margin-bottom: 10px;"><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Page traffic</b><br />
+<span class="time">8560</span> visitors<br />
+<span class="time" style="word-break:break-all">2</span> freedb<br />
+</div>
+
+<div><img src="/db/img/arrowbit.gif" alt="" /> <b class="label">Page built in</b><br />
+<span class="time">0.04</span> seconds</div>
+</div>
+
+<b class="rbot"><b></b></b>
+</div>
+
+
+
+</td>
+
+</tr>
+<tr>
+<td valign="bottom" style="background-color: #1B273D;">
+<b class="rbot"><b></b></b>
+</td>
+</tr>
+</table>
+
+<!-- album tools menu -->
+<div class="vbmenu_popup" id="albumtools_menu" style="display:none">
+<table cellpadding="4" cellspacing="1" border="0">
+	
+	<tr><td class="vbmenu_option">You must be logged in to edit.</td></tr>
+	
+</table>
+</div>
+<!-- / album tools menu -->
+
+
+<!-- / main page contents -->
+
+</div>
+<!-- /content area table -->
+<div style="clear: both; height: 20px"></div>
+
+<div class="alt1" style="width: 100%">
+<div id="footer">
+<div style="padding: 20px 10px 0 200px">
+
+
+
+	<div style="float: right; text-align: right; font-family: Arial;" class="label">
+		<a href="/about">About Us</a> &bull;
+		<a href="/faq">F.A.Q.</a> &bull;
+		<a href="/forums/sendmessage.php" rel="nofollow" accesskey="9">Contact Us</a> &bull;
+		<a href="/db/statistics.php" rel="nofollow">Statistics</a> &bull;
+		<a href="/album/random" rel="nofollow">Random Album</a> &bull;
+		<a href="https://vgmdb.net">Home</a>
+
+		<div class="smallfont" style="font-family: Arial; margin-top: 10px">
+		
+		
+		
+		<a href="/forums/archive/index.php">Archive</a> &bull;
+		
+		<a href="/privacy">Privacy Statement</a> &bull;
+		
+		<a href="#top" onclick="self.scrollTo(0, 0); return false;">Top</a>
+		</div>
+
+	<div style="margin-top: 10px"><form action="index.php" method="get">
+	
+	
+	
+
+	</form></div>
+	</div>
+
+	<div class="label">
+		<h3>VGMdb 1.4</h3>
+		<div class="smallfont"><!-- Do not remove this copyright notice -->
+		
+		<!-- Do not remove this copyright notice --></div>
+		<div class="smallfont">Site code and design copyright VGMdb.net</div>
+		<div class="smallfont">Site material is property of their respective owners.</div>
+		<div class="smallfont">All times are GMT -8. The time now is <span class="time">12:12 PM</span>.</div>
+	</div>
+
+
+
+
+
+</div></div></div>
+
+
+<script type="text/javascript">
+<!--
+	// Main vBulletin Javascript Initialization
+	vBulletin_init();
+//-->
+</script>
+</body>
+</html>
